@@ -1,0 +1,29 @@
+2025-07-21 20:55:17,657 - universal_mcp - INFO - === 启动 Universal MCP Tool ===
+2025-07-21 20:55:17,728 - universal_mcp - INFO - 配置加载完成，MCP端点: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzA5MjM4OX0.8r2E2s0AdER4YEFb0wcrK_FZCRDyTC1RwhDdDf2gU4Jl7nT32spNSm_eHhvlQEZlNsAo0FsxOfxaZS4PqGeF_Q
+2025-07-21 20:55:17,729 - universal_mcp - INFO - 已设置MCP_ENDPOINT环境变量: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzA5MjM4OX0.8r2E2s0AdER4YEFb0wcrK_FZCRDyTC1RwhDdDf2gU4Jl7nT32spNSm_eHhvlQEZlNsAo0FsxOfxaZS4PqGeF_Q
+2025-07-21 20:55:17,730 - universal_mcp - INFO - Loaded 2 API configurations
+2025-07-21 20:55:17,744 - universal_mcp - INFO - Registered API as tool: 日记
+2025-07-21 20:55:17,754 - universal_mcp - INFO - Registered API as tool: 绕口令
+2025-07-21 20:55:17,780 - universal_mcp - INFO - Starting Universal MCP Tool server
+2025-07-21 20:55:17,780 - universal_mcp - INFO - Using MCP_ENDPOINT: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzA5MjM4OX0.8r2E2s0AdER4YEFb0wcrK_FZCRDyTC1RwhDdDf2gU4Jl7nT32spNSm_eHhvlQEZlNsAo0FsxOfxaZS4PqGeF_Q
+2025-07-21 20:55:17,874 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-07-21 20:55:29,489 - mcp.server.lowlevel.server - INFO - Processing request of type PingRequest
+2025-07-21 20:56:29,280 - mcp.server.lowlevel.server - INFO - Processing request of type PingRequest
+2025-07-21 20:57:29,215 - mcp.server.lowlevel.server - INFO - Processing request of type PingRequest
+2025-07-21 20:58:29,299 - mcp.server.lowlevel.server - INFO - Processing request of type PingRequest
+2025-07-21 20:59:29,215 - mcp.server.lowlevel.server - INFO - Processing request of type PingRequest
+2025-07-21 20:59:50,246 - mcp.server.lowlevel.server - INFO - Processing request of type CallToolRequest
+2025-07-21 20:59:50,505 - universal_mcp - INFO - Calling API: 绕口令
+2025-07-21 21:00:29,214 - mcp.server.lowlevel.server - INFO - Processing request of type PingRequest
+2025-07-21 21:00:40,268 - mcp.server.lowlevel.server - INFO - Processing request of type CallToolRequest
+2025-07-21 21:00:40,270 - universal_mcp - INFO - Calling API: 绕口令
+2025-07-21 21:01:29,201 - mcp.server.lowlevel.server - INFO - Processing request of type PingRequest
+2025-07-21 21:02:29,206 - mcp.server.lowlevel.server - INFO - Processing request of type PingRequest
+2025-07-21 21:03:29,195 - mcp.server.lowlevel.server - INFO - Processing request of type PingRequest
+2025-07-21 21:04:29,247 - mcp.server.lowlevel.server - INFO - Processing request of type PingRequest
+2025-07-21 21:05:29,199 - mcp.server.lowlevel.server - INFO - Processing request of type PingRequest
+2025-07-21 21:06:29,201 - mcp.server.lowlevel.server - INFO - Processing request of type PingRequest
+2025-07-21 21:07:29,190 - mcp.server.lowlevel.server - INFO - Processing request of type PingRequest
+2025-07-21 21:08:29,189 - mcp.server.lowlevel.server - INFO - Processing request of type PingRequest
+2025-07-21 21:09:29,190 - mcp.server.lowlevel.server - INFO - Processing request of type PingRequest
+2025-07-21 21:10:29,245 - mcp.server.lowlevel.server - INFO - Processing request of type PingRequest
