@@ -39,8 +39,7 @@ def run_web_interface():
         
         # 运行Web界面
         process = subprocess.Popen([
-            # sys.executable, 'src/web/knowledge_web.py'
-            sys.executable, 'src/web/simple_web.py'
+            sys.executable, 'src/web/knowledge_web.py'
         ], stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
         
         # 监控输出

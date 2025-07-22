@@ -1,0 +1,119 @@
+{% extends "base.html" %}
+
+{% block title %}知识库管理 - 知识库管理系统{% endblock %}
+
+{% block content %}
+<h2>知识库文档管理</h2>
+
+<div class="card">
+    <div class="card-header">
+        <h5>文档列表</h5>
+        <button type="button" class="btn btn-sm btn-primary" onclick="refreshDocuments()">刷新</button>
+    </div>
+    <div class="card-body">
+        <div id="documentsTable">
+            {% if documents %}
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>文件名</th>
+                                <th>文件类型</th>
+                                <th>上传时间</th>
+                                <th>文档块数</th>
+                                <th>操作</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for doc in documents %}
+                            <tr>
+                                <td>{{ doc.filename }}</td>
+                                <td>{{ doc.file_type }}</td>
+                                <td>{{ doc.upload_time }}</td>
+                                <td>{{ doc.chunk_count }}</td>
+                                <td>
+                                    <button type="button" class="btn btn-sm btn-danger" 
+                                            onclick="deleteDocument('{{ doc.filename }}')">删除</button>
+                                </td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            {% else %}
+                <p class="text-muted">知识库中暂无文档</p>
+            {% endif %}
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+async function refreshDocuments() {
+    try {
+        const response = await fetch('/api/documents');
+        const result = await response.json();
+        
+        if (result.success) {
+            updateDocumentsTable(result.documents);
+        } else {
+            alert('获取文档列表失败: ' + result.error);
+        }
+    } catch (error) {
+        console.error('刷新失败:', error);
+        alert('刷新失败，请重试');
+    }
+}
+
+function updateDocumentsTable(documents) {
+    const tableDiv = document.getElementById('documentsTable');
+    
+    if (documents.length === 0) {
+        tableDiv.innerHTML = '<p class="text-muted">知识库中暂无文档</p>';
+        return;
+    }
+    
+    let html = '<div class="table-responsive"><table class="table table-striped">';
+    html += '<thead><tr><th>文件名</th><th>文件类型</th><th>上传时间</th><th>文档块数</th><th>操作</th></tr></thead>';
+    html += '<tbody>';
+    
+    documents.forEach(doc => {
+        html += '<tr>';
+        html += '<td>' + doc.filename + '</td>';
+        html += '<td>' + doc.file_type + '</td>';
+        html += '<td>' + doc.upload_time + '</td>';
+        html += '<td>' + doc.chunk_count + '</td>';
+        html += '<td><button type="button" class="btn btn-sm btn-danger" onclick="deleteDocument('' + doc.filename + '')">';
+        html += '</tr>';
+    });
+    
+    html += '</tbody></table></div>';
+    tableDiv.innerHTML = html;
+}
+
+async function deleteDocument(filename) {
+    if (!confirm('确定要删除文档 "' + filename + '" 吗？')) {
+        return;
+    }
+    
+    try {
+        const response = await fetch('/api/documents/' + encodeURIComponent(filename), {
+            method: 'DELETE'
+        });
+        
+        const result = await response.json();
+        
+        if (result.success) {
+            alert('文档删除成功');
+            refreshDocuments();
+        } else {
+            alert('删除失败: ' + result.message);
+        }
+    } catch (error) {
+        console.error('删除失败:', error);
+        alert('删除失败，请重试');
+    }
+}
+</script>
+{% endblock %}
