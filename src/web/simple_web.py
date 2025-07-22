@@ -656,7 +656,7 @@ A190：若自持项目投入产出加速兑现、费用率控制有效、利息�
 if __name__ == '__main__':
     print("🌐 启动简化版知识库Web界面...")
     print(f"📁 上传目录: {upload_dir}")
-    # 从环境变量获取端口，默认为5000
-    port = int(os.environ.get('FLASK_PORT', 5000))
+    # 从环境变量获取端口，默认为5001
+    port = int(os.environ.get('FLASK_PORT', 5001))
     print(f"🔌 监听端口: {port}")
     app.run(host='0.0.0.0', port=port, debug=True)

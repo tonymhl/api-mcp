@@ -28,7 +28,7 @@
   },
   {
     "api_name": "GDS万国数据财报问答知识",
-    "api_url": "http://localhost:5000/api/gds_intro",
+    "api_url": "http://localhost:5001/api/gds_intro",
     "method": "GET",
     "request_format": {},
     "response_format": {

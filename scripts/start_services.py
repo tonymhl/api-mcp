@@ -39,7 +39,8 @@ def run_web_interface():
         
         # 运行Web界面
         process = subprocess.Popen([
-            sys.executable, 'src/web/knowledge_web.py'
+            sys.executable, 'src/web/simple_web.py'
+            # sys.executable, 'src/web/knowledge_web.py'
         ], stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
         
         # 监控输出
@@ -106,7 +107,7 @@ def main():
         
         print("\n✅ 服务启动完成!")
         print("📱 MCP服务: 已连接到小智AI终端")
-        print("🌐 Web界面: http://localhost:5000")
+        print("🌐 Web界面: http://localhost:5001")
         print("\n按 Ctrl+C 停止服务...")
         
         # 等待线程

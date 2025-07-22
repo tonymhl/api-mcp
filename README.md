@@ -97,7 +97,7 @@ python main.py --mode full
 python main.py --mode mcp
 
 # 仅启动知识库Web界面
-python main.py --mode web --port 5000
+python main.py --mode web --port 5001
 ```
 
 ### 方式二：使用脚本启动
@@ -121,7 +121,7 @@ python src/web/knowledge_web.py
 ## 服务访问
 
 - **MCP服务**：自动连接到小智AI终端
-- **知识库Web界面**：http://localhost:5000
+- **知识库Web界面**：http://localhost:5001
 - **GUI管理界面**：通过启动脚本打开
 
 ## 使用指南

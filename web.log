@@ -1,6 +1,6 @@
 🌐 启动简化版知识库Web界面...
 📁 上传目录: /Users/honglima/Desktop/Workspace/api-mcp/data/uploads
-🔌 监听端口: 5000
+🔌 监听端口: 5001
  * Serving Flask app 'simple_web'
  * Debug mode: on
 INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m

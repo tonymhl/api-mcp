@@ -576,7 +576,7 @@ if __name__ == '__main__':
     create_templates()
     
     # 启动Flask应用
-    app.run(debug=True, host='0.0.0.0', port=5000)
+    app.run(debug=True, host='0.0.0.0', port=5001)
 
 def create_templates():
     """创建基本的HTML模板"""
