@@ -158,7 +158,7 @@ class UniversalMCPTool:
             logger.info(f"Calling API: {api_name}")
             try:
                 # 准备请求参数
-                params = kwargs.copy()
+                params = {}
                 headers = {}
                 url = api_url
                 
