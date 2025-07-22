@@ -33262,3 +33262,578 @@
 2025-07-22 19:54:30,313 - MCP_PIPE - ERROR - Error in WebSocket to process pipe: sent 1000 (OK); then received 1000 (OK)
 2025-07-22 19:54:30,314 - MCP_PIPE - ERROR - Connection error: [Errno 32] Broken pipe
 2025-07-22 19:54:30,314 - MCP_PIPE - INFO - Terminating src/core/universal_mcp_tool.py process
+2025-07-22 19:54:30,322 - MCP_PIPE - INFO - src/core/universal_mcp_tool.py process terminated
+2025-07-22 19:54:30,322 - MCP_PIPE - WARNING - Connection closed (attempt: 1): [Errno 32] Broken pipe
+2025-07-22 19:54:30,322 - MCP_PIPE - INFO - Waiting 2.15 seconds before reconnection attempt 1...
+2025-07-22 19:54:30,323 - MCP_PIPE - INFO - Process has ended output
+2025-07-22 19:54:30,704 - MCP_PIPE - INFO - Successfully connected to WebSocket server
+2025-07-22 19:54:30,714 - MCP_PIPE - INFO - Started src/core/universal_mcp_tool.py process
+2025-07-22 19:54:32,471 - MCP_PIPE - INFO - Connecting to WebSocket server: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-22 19:54:32,798 - MCP_PIPE - INFO - Successfully connected to WebSocket server
+2025-07-22 19:54:32,805 - MCP_PIPE - INFO - Started src/core/universal_mcp_tool.py process
+2025-07-22 19:54:33,639 - MCP_PIPE - ERROR - Error in process stderr pipe: [Errno 32] Broken pipe
+2025-07-22 19:54:33,714 - MCP_PIPE - ERROR - Error in WebSocket to process pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:54:33,714 - MCP_PIPE - ERROR - Error in process to WebSocket pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:54:33,715 - MCP_PIPE - ERROR - Connection error: [Errno 32] Broken pipe
+2025-07-22 19:54:33,715 - MCP_PIPE - INFO - Terminating src/core/universal_mcp_tool.py process
+2025-07-22 19:54:33,730 - MCP_PIPE - INFO - src/core/universal_mcp_tool.py process terminated
+2025-07-22 19:54:33,731 - MCP_PIPE - WARNING - Connection closed (attempt: 1): [Errno 32] Broken pipe
+2025-07-22 19:54:33,731 - MCP_PIPE - INFO - Waiting 2.11 seconds before reconnection attempt 1...
+2025-07-22 19:54:34,695 - MCP_PIPE - ERROR - Error in process stderr pipe: [Errno 32] Broken pipe
+2025-07-22 19:54:34,758 - MCP_PIPE - ERROR - Error in WebSocket to process pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:54:34,759 - MCP_PIPE - ERROR - Error in process to WebSocket pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:54:34,759 - MCP_PIPE - ERROR - Connection error: [Errno 32] Broken pipe
+2025-07-22 19:54:34,760 - MCP_PIPE - INFO - Terminating src/core/universal_mcp_tool.py process
+2025-07-22 19:54:34,776 - MCP_PIPE - INFO - src/core/universal_mcp_tool.py process terminated
+2025-07-22 19:54:34,776 - MCP_PIPE - WARNING - Connection closed (attempt: 1): [Errno 32] Broken pipe
+2025-07-22 19:54:34,777 - MCP_PIPE - INFO - Waiting 2.13 seconds before reconnection attempt 1...
+2025-07-22 19:54:35,838 - MCP_PIPE - INFO - Connecting to WebSocket server: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-22 19:54:36,182 - MCP_PIPE - INFO - Successfully connected to WebSocket server
+2025-07-22 19:54:36,193 - MCP_PIPE - INFO - Started src/core/universal_mcp_tool.py process
+2025-07-22 19:54:36,911 - MCP_PIPE - INFO - Connecting to WebSocket server: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-22 19:54:37,234 - MCP_PIPE - INFO - Successfully connected to WebSocket server
+2025-07-22 19:54:37,242 - MCP_PIPE - INFO - Started src/core/universal_mcp_tool.py process
+2025-07-22 19:54:37,895 - MCP_PIPE - ERROR - Error in process stderr pipe: [Errno 32] Broken pipe
+2025-07-22 19:54:37,959 - MCP_PIPE - ERROR - Error in WebSocket to process pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:54:37,960 - MCP_PIPE - ERROR - Error in process to WebSocket pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:54:37,960 - MCP_PIPE - ERROR - Connection error: [Errno 32] Broken pipe
+2025-07-22 19:54:37,960 - MCP_PIPE - INFO - Terminating src/core/universal_mcp_tool.py process
+2025-07-22 19:54:37,979 - MCP_PIPE - INFO - src/core/universal_mcp_tool.py process terminated
+2025-07-22 19:54:37,979 - MCP_PIPE - WARNING - Connection closed (attempt: 1): [Errno 32] Broken pipe
+2025-07-22 19:54:37,980 - MCP_PIPE - INFO - Waiting 2.13 seconds before reconnection attempt 1...
+2025-07-22 19:54:38,749 - MCP_PIPE - ERROR - Error in process stderr pipe: [Errno 32] Broken pipe
+2025-07-22 19:54:38,815 - MCP_PIPE - ERROR - Error in WebSocket to process pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:54:38,816 - MCP_PIPE - ERROR - Error in process to WebSocket pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:54:38,816 - MCP_PIPE - ERROR - Connection error: [Errno 32] Broken pipe
+2025-07-22 19:54:38,817 - MCP_PIPE - INFO - Terminating src/core/universal_mcp_tool.py process
+2025-07-22 19:54:38,833 - MCP_PIPE - INFO - src/core/universal_mcp_tool.py process terminated
+2025-07-22 19:54:38,834 - MCP_PIPE - WARNING - Connection closed (attempt: 1): [Errno 32] Broken pipe
+2025-07-22 19:54:38,834 - MCP_PIPE - INFO - Waiting 2.14 seconds before reconnection attempt 1...
+2025-07-22 19:54:40,114 - MCP_PIPE - INFO - Connecting to WebSocket server: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-22 19:54:40,480 - MCP_PIPE - INFO - Successfully connected to WebSocket server
+2025-07-22 19:54:40,489 - MCP_PIPE - INFO - Started src/core/universal_mcp_tool.py process
+2025-07-22 19:54:40,974 - MCP_PIPE - INFO - Connecting to WebSocket server: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-22 19:54:41,326 - MCP_PIPE - INFO - Successfully connected to WebSocket server
+2025-07-22 19:54:41,331 - MCP_PIPE - INFO - Started src/core/universal_mcp_tool.py process
+2025-07-22 19:54:42,244 - MCP_PIPE - ERROR - Error in process stderr pipe: [Errno 32] Broken pipe
+2025-07-22 19:54:42,315 - MCP_PIPE - ERROR - Error in WebSocket to process pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:54:42,315 - MCP_PIPE - ERROR - Connection error: [Errno 32] Broken pipe
+2025-07-22 19:54:42,315 - MCP_PIPE - INFO - Terminating src/core/universal_mcp_tool.py process
+2025-07-22 19:54:42,332 - MCP_PIPE - INFO - src/core/universal_mcp_tool.py process terminated
+2025-07-22 19:54:42,332 - MCP_PIPE - WARNING - Connection closed (attempt: 1): [Errno 32] Broken pipe
+2025-07-22 19:54:42,332 - MCP_PIPE - INFO - Waiting 2.00 seconds before reconnection attempt 1...
+2025-07-22 19:54:42,333 - MCP_PIPE - INFO - Process has ended output
+2025-07-22 19:54:43,674 - MCP_PIPE - ERROR - Error in process stderr pipe: [Errno 32] Broken pipe
+2025-07-22 19:54:43,810 - MCP_PIPE - ERROR - Error in WebSocket to process pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:54:43,810 - MCP_PIPE - ERROR - Error in process to WebSocket pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:54:43,810 - MCP_PIPE - ERROR - Connection error: [Errno 32] Broken pipe
+2025-07-22 19:54:43,810 - MCP_PIPE - INFO - Terminating src/core/universal_mcp_tool.py process
+2025-07-22 19:54:43,829 - MCP_PIPE - INFO - src/core/universal_mcp_tool.py process terminated
+2025-07-22 19:54:43,829 - MCP_PIPE - WARNING - Connection closed (attempt: 1): [Errno 32] Broken pipe
+2025-07-22 19:54:43,829 - MCP_PIPE - INFO - Waiting 2.16 seconds before reconnection attempt 1...
+2025-07-22 19:54:44,338 - MCP_PIPE - INFO - Connecting to WebSocket server: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-22 19:54:45,263 - MCP_PIPE - INFO - Successfully connected to WebSocket server
+2025-07-22 19:54:45,270 - MCP_PIPE - INFO - Started src/core/universal_mcp_tool.py process
+2025-07-22 19:54:45,990 - MCP_PIPE - INFO - Connecting to WebSocket server: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-22 19:54:46,591 - MCP_PIPE - ERROR - Error in process stderr pipe: [Errno 32] Broken pipe
+2025-07-22 19:54:46,926 - MCP_PIPE - INFO - Successfully connected to WebSocket server
+2025-07-22 19:54:46,933 - MCP_PIPE - INFO - Started src/core/universal_mcp_tool.py process
+2025-07-22 19:54:47,101 - MCP_PIPE - ERROR - Error in WebSocket to process pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:54:47,101 - MCP_PIPE - ERROR - Error in process to WebSocket pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:54:47,101 - MCP_PIPE - ERROR - Connection error: [Errno 32] Broken pipe
+2025-07-22 19:54:47,101 - MCP_PIPE - INFO - Terminating src/core/universal_mcp_tool.py process
+2025-07-22 19:54:47,118 - MCP_PIPE - INFO - src/core/universal_mcp_tool.py process terminated
+2025-07-22 19:54:47,119 - MCP_PIPE - WARNING - Connection closed (attempt: 1): [Errno 32] Broken pipe
+2025-07-22 19:54:47,119 - MCP_PIPE - INFO - Waiting 2.01 seconds before reconnection attempt 1...
+2025-07-22 19:54:48,196 - MCP_PIPE - ERROR - Error in process stderr pipe: [Errno 32] Broken pipe
+2025-07-22 19:54:48,262 - MCP_PIPE - ERROR - Error in WebSocket to process pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:54:48,262 - MCP_PIPE - ERROR - Error in process to WebSocket pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:54:48,263 - MCP_PIPE - ERROR - Connection error: [Errno 32] Broken pipe
+2025-07-22 19:54:48,263 - MCP_PIPE - INFO - Terminating src/core/universal_mcp_tool.py process
+2025-07-22 19:54:48,282 - MCP_PIPE - INFO - src/core/universal_mcp_tool.py process terminated
+2025-07-22 19:54:48,282 - MCP_PIPE - WARNING - Connection closed (attempt: 1): [Errno 32] Broken pipe
+2025-07-22 19:54:48,283 - MCP_PIPE - INFO - Waiting 2.19 seconds before reconnection attempt 1...
+2025-07-22 19:54:49,130 - MCP_PIPE - INFO - Connecting to WebSocket server: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-22 19:54:49,472 - MCP_PIPE - INFO - Successfully connected to WebSocket server
+2025-07-22 19:54:49,482 - MCP_PIPE - INFO - Started src/core/universal_mcp_tool.py process
+2025-07-22 19:54:50,474 - MCP_PIPE - INFO - Connecting to WebSocket server: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-22 19:54:50,803 - MCP_PIPE - ERROR - Error in process stderr pipe: [Errno 32] Broken pipe
+2025-07-22 19:54:50,913 - MCP_PIPE - ERROR - Error in WebSocket to process pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:54:50,914 - MCP_PIPE - ERROR - Error in process to WebSocket pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:54:50,916 - MCP_PIPE - ERROR - Connection error: [Errno 32] Broken pipe
+2025-07-22 19:54:50,916 - MCP_PIPE - INFO - Terminating src/core/universal_mcp_tool.py process
+2025-07-22 19:54:50,934 - MCP_PIPE - INFO - src/core/universal_mcp_tool.py process terminated
+2025-07-22 19:54:50,935 - MCP_PIPE - WARNING - Connection closed (attempt: 1): [Errno 32] Broken pipe
+2025-07-22 19:54:50,935 - MCP_PIPE - INFO - Waiting 2.04 seconds before reconnection attempt 1...
+2025-07-22 19:54:50,960 - MCP_PIPE - INFO - Successfully connected to WebSocket server
+2025-07-22 19:54:50,967 - MCP_PIPE - INFO - Started src/core/universal_mcp_tool.py process
+2025-07-22 19:54:52,230 - MCP_PIPE - ERROR - Error in process stderr pipe: [Errno 32] Broken pipe
+2025-07-22 19:54:52,357 - MCP_PIPE - ERROR - Error in WebSocket to process pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:54:52,357 - MCP_PIPE - ERROR - Error in process to WebSocket pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:54:52,358 - MCP_PIPE - ERROR - Connection error: [Errno 32] Broken pipe
+2025-07-22 19:54:52,358 - MCP_PIPE - INFO - Terminating src/core/universal_mcp_tool.py process
+2025-07-22 19:54:52,375 - MCP_PIPE - INFO - src/core/universal_mcp_tool.py process terminated
+2025-07-22 19:54:52,376 - MCP_PIPE - WARNING - Connection closed (attempt: 1): [Errno 32] Broken pipe
+2025-07-22 19:54:52,376 - MCP_PIPE - INFO - Waiting 2.08 seconds before reconnection attempt 1...
+2025-07-22 19:54:52,980 - MCP_PIPE - INFO - Connecting to WebSocket server: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-22 19:54:53,410 - MCP_PIPE - INFO - Successfully connected to WebSocket server
+2025-07-22 19:54:53,420 - MCP_PIPE - INFO - Started src/core/universal_mcp_tool.py process
+2025-07-22 19:54:54,453 - MCP_PIPE - INFO - Connecting to WebSocket server: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-22 19:54:54,714 - MCP_PIPE - ERROR - Error in process stderr pipe: [Errno 32] Broken pipe
+2025-07-22 19:54:54,851 - MCP_PIPE - ERROR - Error in WebSocket to process pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:54:54,851 - MCP_PIPE - ERROR - Error in process to WebSocket pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:54:54,851 - MCP_PIPE - ERROR - Connection error: [Errno 32] Broken pipe
+2025-07-22 19:54:54,851 - MCP_PIPE - INFO - Terminating src/core/universal_mcp_tool.py process
+2025-07-22 19:54:54,869 - MCP_PIPE - INFO - src/core/universal_mcp_tool.py process terminated
+2025-07-22 19:54:54,870 - MCP_PIPE - WARNING - Connection closed (attempt: 1): [Errno 32] Broken pipe
+2025-07-22 19:54:54,870 - MCP_PIPE - INFO - Waiting 2.08 seconds before reconnection attempt 1...
+2025-07-22 19:54:55,011 - MCP_PIPE - INFO - Successfully connected to WebSocket server
+2025-07-22 19:54:55,018 - MCP_PIPE - INFO - Started src/core/universal_mcp_tool.py process
+2025-07-22 19:54:56,261 - MCP_PIPE - ERROR - Error in process stderr pipe: [Errno 32] Broken pipe
+2025-07-22 19:54:56,409 - MCP_PIPE - ERROR - Error in WebSocket to process pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:54:56,410 - MCP_PIPE - ERROR - Error in process to WebSocket pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:54:56,410 - MCP_PIPE - ERROR - Connection error: [Errno 32] Broken pipe
+2025-07-22 19:54:56,410 - MCP_PIPE - INFO - Terminating src/core/universal_mcp_tool.py process
+2025-07-22 19:54:56,428 - MCP_PIPE - INFO - src/core/universal_mcp_tool.py process terminated
+2025-07-22 19:54:56,429 - MCP_PIPE - WARNING - Connection closed (attempt: 1): [Errno 32] Broken pipe
+2025-07-22 19:54:56,429 - MCP_PIPE - INFO - Waiting 2.04 seconds before reconnection attempt 1...
+2025-07-22 19:54:56,953 - MCP_PIPE - INFO - Connecting to WebSocket server: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-22 19:54:57,267 - MCP_PIPE - INFO - Successfully connected to WebSocket server
+2025-07-22 19:54:57,282 - MCP_PIPE - INFO - Started src/core/universal_mcp_tool.py process
+2025-07-22 19:54:58,472 - MCP_PIPE - INFO - Connecting to WebSocket server: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-22 19:54:59,362 - MCP_PIPE - INFO - Successfully connected to WebSocket server
+2025-07-22 19:54:59,370 - MCP_PIPE - INFO - Started src/core/universal_mcp_tool.py process
+2025-07-22 19:54:59,401 - MCP_PIPE - ERROR - Error in process stderr pipe: [Errno 32] Broken pipe
+2025-07-22 19:54:59,507 - MCP_PIPE - ERROR - Error in WebSocket to process pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:54:59,507 - MCP_PIPE - ERROR - Error in process to WebSocket pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:54:59,508 - MCP_PIPE - ERROR - Connection error: [Errno 32] Broken pipe
+2025-07-22 19:54:59,508 - MCP_PIPE - INFO - Terminating src/core/universal_mcp_tool.py process
+2025-07-22 19:54:59,525 - MCP_PIPE - INFO - src/core/universal_mcp_tool.py process terminated
+2025-07-22 19:54:59,525 - MCP_PIPE - WARNING - Connection closed (attempt: 1): [Errno 32] Broken pipe
+2025-07-22 19:54:59,525 - MCP_PIPE - INFO - Waiting 2.05 seconds before reconnection attempt 1...
+2025-07-22 19:55:00,902 - MCP_PIPE - ERROR - Error in process stderr pipe: [Errno 32] Broken pipe
+2025-07-22 19:55:00,959 - MCP_PIPE - ERROR - Error in WebSocket to process pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:55:00,960 - MCP_PIPE - ERROR - Error in process to WebSocket pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:55:00,960 - MCP_PIPE - ERROR - Connection error: [Errno 32] Broken pipe
+2025-07-22 19:55:00,960 - MCP_PIPE - INFO - Terminating src/core/universal_mcp_tool.py process
+2025-07-22 19:55:00,978 - MCP_PIPE - INFO - src/core/universal_mcp_tool.py process terminated
+2025-07-22 19:55:00,978 - MCP_PIPE - WARNING - Connection closed (attempt: 1): [Errno 32] Broken pipe
+2025-07-22 19:55:00,979 - MCP_PIPE - INFO - Waiting 2.03 seconds before reconnection attempt 1...
+2025-07-22 19:55:01,576 - MCP_PIPE - INFO - Connecting to WebSocket server: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-22 19:55:02,160 - MCP_PIPE - INFO - Successfully connected to WebSocket server
+2025-07-22 19:55:02,168 - MCP_PIPE - INFO - Started src/core/universal_mcp_tool.py process
+2025-07-22 19:55:03,008 - MCP_PIPE - INFO - Connecting to WebSocket server: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-22 19:55:03,330 - MCP_PIPE - INFO - Successfully connected to WebSocket server
+2025-07-22 19:55:03,335 - MCP_PIPE - INFO - Started src/core/universal_mcp_tool.py process
+2025-07-22 19:55:03,615 - MCP_PIPE - ERROR - Error in process stderr pipe: [Errno 32] Broken pipe
+2025-07-22 19:55:03,680 - MCP_PIPE - ERROR - Error in WebSocket to process pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:55:03,681 - MCP_PIPE - ERROR - Error in process to WebSocket pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:55:03,681 - MCP_PIPE - ERROR - Connection error: [Errno 32] Broken pipe
+2025-07-22 19:55:03,681 - MCP_PIPE - INFO - Terminating src/core/universal_mcp_tool.py process
+2025-07-22 19:55:03,702 - MCP_PIPE - INFO - src/core/universal_mcp_tool.py process terminated
+2025-07-22 19:55:03,703 - MCP_PIPE - WARNING - Connection closed (attempt: 1): [Errno 32] Broken pipe
+2025-07-22 19:55:03,703 - MCP_PIPE - INFO - Waiting 2.14 seconds before reconnection attempt 1...
+2025-07-22 19:55:04,953 - MCP_PIPE - ERROR - Error in process stderr pipe: [Errno 32] Broken pipe
+2025-07-22 19:55:05,029 - MCP_PIPE - ERROR - Error in WebSocket to process pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:55:05,029 - MCP_PIPE - ERROR - Error in process to WebSocket pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:55:05,029 - MCP_PIPE - ERROR - Connection error: [Errno 32] Broken pipe
+2025-07-22 19:55:05,030 - MCP_PIPE - INFO - Terminating src/core/universal_mcp_tool.py process
+2025-07-22 19:55:05,048 - MCP_PIPE - INFO - src/core/universal_mcp_tool.py process terminated
+2025-07-22 19:55:05,048 - MCP_PIPE - WARNING - Connection closed (attempt: 1): [Errno 32] Broken pipe
+2025-07-22 19:55:05,049 - MCP_PIPE - INFO - Waiting 2.18 seconds before reconnection attempt 1...
+2025-07-22 19:55:05,841 - MCP_PIPE - INFO - Connecting to WebSocket server: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-22 19:55:06,266 - MCP_PIPE - INFO - Successfully connected to WebSocket server
+2025-07-22 19:55:06,293 - MCP_PIPE - INFO - Started src/core/universal_mcp_tool.py process
+2025-07-22 19:55:07,227 - MCP_PIPE - INFO - Connecting to WebSocket server: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-22 19:55:07,594 - MCP_PIPE - ERROR - Error in process stderr pipe: [Errno 32] Broken pipe
+2025-07-22 19:55:07,614 - MCP_PIPE - INFO - Successfully connected to WebSocket server
+2025-07-22 19:55:07,620 - MCP_PIPE - INFO - Started src/core/universal_mcp_tool.py process
+2025-07-22 19:55:07,702 - MCP_PIPE - ERROR - Error in WebSocket to process pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:55:07,703 - MCP_PIPE - ERROR - Error in process to WebSocket pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:55:07,703 - MCP_PIPE - ERROR - Connection error: [Errno 32] Broken pipe
+2025-07-22 19:55:07,703 - MCP_PIPE - INFO - Terminating src/core/universal_mcp_tool.py process
+2025-07-22 19:55:07,723 - MCP_PIPE - INFO - src/core/universal_mcp_tool.py process terminated
+2025-07-22 19:55:07,723 - MCP_PIPE - WARNING - Connection closed (attempt: 1): [Errno 32] Broken pipe
+2025-07-22 19:55:07,724 - MCP_PIPE - INFO - Waiting 2.09 seconds before reconnection attempt 1...
+2025-07-22 19:55:09,031 - MCP_PIPE - ERROR - Error in process stderr pipe: [Errno 32] Broken pipe
+2025-07-22 19:55:09,105 - MCP_PIPE - ERROR - Error in WebSocket to process pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:55:09,106 - MCP_PIPE - ERROR - Error in process to WebSocket pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:55:09,106 - MCP_PIPE - ERROR - Connection error: [Errno 32] Broken pipe
+2025-07-22 19:55:09,106 - MCP_PIPE - INFO - Terminating src/core/universal_mcp_tool.py process
+2025-07-22 19:55:09,125 - MCP_PIPE - INFO - src/core/universal_mcp_tool.py process terminated
+2025-07-22 19:55:09,125 - MCP_PIPE - WARNING - Connection closed (attempt: 1): [Errno 32] Broken pipe
+2025-07-22 19:55:09,126 - MCP_PIPE - INFO - Waiting 2.03 seconds before reconnection attempt 1...
+2025-07-22 19:55:09,817 - MCP_PIPE - INFO - Connecting to WebSocket server: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-22 19:55:10,376 - MCP_PIPE - INFO - Successfully connected to WebSocket server
+2025-07-22 19:55:10,383 - MCP_PIPE - INFO - Started src/core/universal_mcp_tool.py process
+2025-07-22 19:55:11,155 - MCP_PIPE - INFO - Connecting to WebSocket server: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-22 19:55:11,604 - MCP_PIPE - INFO - Successfully connected to WebSocket server
+2025-07-22 19:55:11,613 - MCP_PIPE - INFO - Started src/core/universal_mcp_tool.py process
+2025-07-22 19:55:11,710 - MCP_PIPE - ERROR - Error in process stderr pipe: [Errno 32] Broken pipe
+2025-07-22 19:55:11,770 - MCP_PIPE - ERROR - Error in WebSocket to process pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:55:11,770 - MCP_PIPE - ERROR - Error in process to WebSocket pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:55:11,770 - MCP_PIPE - ERROR - Connection error: [Errno 32] Broken pipe
+2025-07-22 19:55:11,770 - MCP_PIPE - INFO - Terminating src/core/universal_mcp_tool.py process
+2025-07-22 19:55:11,788 - MCP_PIPE - INFO - src/core/universal_mcp_tool.py process terminated
+2025-07-22 19:55:11,789 - MCP_PIPE - WARNING - Connection closed (attempt: 1): [Errno 32] Broken pipe
+2025-07-22 19:55:11,789 - MCP_PIPE - INFO - Waiting 2.11 seconds before reconnection attempt 1...
+2025-07-22 19:55:12,931 - MCP_PIPE - ERROR - Error in process stderr pipe: [Errno 32] Broken pipe
+2025-07-22 19:55:13,012 - MCP_PIPE - ERROR - Error in WebSocket to process pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:55:13,012 - MCP_PIPE - ERROR - Error in process to WebSocket pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:55:13,012 - MCP_PIPE - ERROR - Connection error: [Errno 32] Broken pipe
+2025-07-22 19:55:13,012 - MCP_PIPE - INFO - Terminating src/core/universal_mcp_tool.py process
+2025-07-22 19:55:13,031 - MCP_PIPE - INFO - src/core/universal_mcp_tool.py process terminated
+2025-07-22 19:55:13,032 - MCP_PIPE - WARNING - Connection closed (attempt: 1): [Errno 32] Broken pipe
+2025-07-22 19:55:13,032 - MCP_PIPE - INFO - Waiting 2.08 seconds before reconnection attempt 1...
+2025-07-22 19:55:13,900 - MCP_PIPE - INFO - Connecting to WebSocket server: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-22 19:55:14,599 - MCP_PIPE - INFO - Successfully connected to WebSocket server
+2025-07-22 19:55:14,607 - MCP_PIPE - INFO - Started src/core/universal_mcp_tool.py process
+2025-07-22 19:55:15,112 - MCP_PIPE - INFO - Connecting to WebSocket server: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-22 19:55:15,507 - MCP_PIPE - INFO - Successfully connected to WebSocket server
+2025-07-22 19:55:15,515 - MCP_PIPE - INFO - Started src/core/universal_mcp_tool.py process
+2025-07-22 19:55:15,992 - MCP_PIPE - ERROR - Error in process stderr pipe: [Errno 32] Broken pipe
+2025-07-22 19:55:16,098 - MCP_PIPE - ERROR - Error in WebSocket to process pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:55:16,098 - MCP_PIPE - ERROR - Error in process to WebSocket pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:55:16,098 - MCP_PIPE - ERROR - Connection error: [Errno 32] Broken pipe
+2025-07-22 19:55:16,098 - MCP_PIPE - INFO - Terminating src/core/universal_mcp_tool.py process
+2025-07-22 19:55:16,117 - MCP_PIPE - INFO - src/core/universal_mcp_tool.py process terminated
+2025-07-22 19:55:16,117 - MCP_PIPE - WARNING - Connection closed (attempt: 1): [Errno 32] Broken pipe
+2025-07-22 19:55:16,117 - MCP_PIPE - INFO - Waiting 2.07 seconds before reconnection attempt 1...
+2025-07-22 19:55:16,876 - MCP_PIPE - ERROR - Error in process stderr pipe: [Errno 32] Broken pipe
+2025-07-22 19:55:16,934 - MCP_PIPE - ERROR - Error in WebSocket to process pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:55:16,934 - MCP_PIPE - ERROR - Error in process to WebSocket pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:55:16,934 - MCP_PIPE - ERROR - Connection error: [Errno 32] Broken pipe
+2025-07-22 19:55:16,935 - MCP_PIPE - INFO - Terminating src/core/universal_mcp_tool.py process
+2025-07-22 19:55:16,951 - MCP_PIPE - INFO - src/core/universal_mcp_tool.py process terminated
+2025-07-22 19:55:16,951 - MCP_PIPE - WARNING - Connection closed (attempt: 1): [Errno 32] Broken pipe
+2025-07-22 19:55:16,951 - MCP_PIPE - INFO - Waiting 2.04 seconds before reconnection attempt 1...
+2025-07-22 19:55:18,192 - MCP_PIPE - INFO - Connecting to WebSocket server: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-22 19:55:18,496 - MCP_PIPE - INFO - Successfully connected to WebSocket server
+2025-07-22 19:55:18,506 - MCP_PIPE - INFO - Started src/core/universal_mcp_tool.py process
+2025-07-22 19:55:18,999 - MCP_PIPE - INFO - Connecting to WebSocket server: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-22 19:55:19,480 - MCP_PIPE - INFO - Successfully connected to WebSocket server
+2025-07-22 19:55:19,487 - MCP_PIPE - INFO - Started src/core/universal_mcp_tool.py process
+2025-07-22 19:55:20,258 - MCP_PIPE - ERROR - Error in process stderr pipe: [Errno 32] Broken pipe
+2025-07-22 19:55:20,362 - MCP_PIPE - ERROR - Error in WebSocket to process pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:55:20,362 - MCP_PIPE - ERROR - Error in process to WebSocket pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:55:20,362 - MCP_PIPE - ERROR - Connection error: [Errno 32] Broken pipe
+2025-07-22 19:55:20,362 - MCP_PIPE - INFO - Terminating src/core/universal_mcp_tool.py process
+2025-07-22 19:55:20,381 - MCP_PIPE - INFO - src/core/universal_mcp_tool.py process terminated
+2025-07-22 19:55:20,381 - MCP_PIPE - WARNING - Connection closed (attempt: 1): [Errno 32] Broken pipe
+2025-07-22 19:55:20,382 - MCP_PIPE - INFO - Waiting 2.07 seconds before reconnection attempt 1...
+2025-07-22 19:55:20,888 - MCP_PIPE - ERROR - Error in process stderr pipe: [Errno 32] Broken pipe
+2025-07-22 19:55:20,955 - MCP_PIPE - ERROR - Error in WebSocket to process pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:55:20,956 - MCP_PIPE - ERROR - Error in process to WebSocket pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:55:20,956 - MCP_PIPE - ERROR - Connection error: [Errno 32] Broken pipe
+2025-07-22 19:55:20,956 - MCP_PIPE - INFO - Terminating src/core/universal_mcp_tool.py process
+2025-07-22 19:55:20,974 - MCP_PIPE - INFO - src/core/universal_mcp_tool.py process terminated
+2025-07-22 19:55:20,974 - MCP_PIPE - WARNING - Connection closed (attempt: 1): [Errno 32] Broken pipe
+2025-07-22 19:55:20,974 - MCP_PIPE - INFO - Waiting 2.10 seconds before reconnection attempt 1...
+2025-07-22 19:55:22,448 - MCP_PIPE - INFO - Connecting to WebSocket server: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-22 19:55:23,034 - MCP_PIPE - INFO - Successfully connected to WebSocket server
+2025-07-22 19:55:23,042 - MCP_PIPE - INFO - Started src/core/universal_mcp_tool.py process
+2025-07-22 19:55:23,071 - MCP_PIPE - INFO - Connecting to WebSocket server: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-22 19:55:23,418 - MCP_PIPE - INFO - Successfully connected to WebSocket server
+2025-07-22 19:55:23,424 - MCP_PIPE - INFO - Started src/core/universal_mcp_tool.py process
+2025-07-22 19:55:24,406 - MCP_PIPE - ERROR - Error in process stderr pipe: [Errno 32] Broken pipe
+2025-07-22 19:55:24,488 - MCP_PIPE - ERROR - Error in WebSocket to process pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:55:24,488 - MCP_PIPE - ERROR - Error in process to WebSocket pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:55:24,488 - MCP_PIPE - ERROR - Connection error: [Errno 32] Broken pipe
+2025-07-22 19:55:24,488 - MCP_PIPE - INFO - Terminating src/core/universal_mcp_tool.py process
+2025-07-22 19:55:24,497 - MCP_PIPE - INFO - src/core/universal_mcp_tool.py process terminated
+2025-07-22 19:55:24,498 - MCP_PIPE - WARNING - Connection closed (attempt: 1): [Errno 32] Broken pipe
+2025-07-22 19:55:24,498 - MCP_PIPE - INFO - Waiting 2.12 seconds before reconnection attempt 1...
+2025-07-22 19:55:24,749 - MCP_PIPE - ERROR - Error in process stderr pipe: [Errno 32] Broken pipe
+2025-07-22 19:55:24,817 - MCP_PIPE - ERROR - Error in WebSocket to process pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:55:24,818 - MCP_PIPE - ERROR - Error in process to WebSocket pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:55:24,818 - MCP_PIPE - ERROR - Connection error: [Errno 32] Broken pipe
+2025-07-22 19:55:24,818 - MCP_PIPE - INFO - Terminating src/core/universal_mcp_tool.py process
+2025-07-22 19:55:24,838 - MCP_PIPE - INFO - src/core/universal_mcp_tool.py process terminated
+2025-07-22 19:55:24,838 - MCP_PIPE - WARNING - Connection closed (attempt: 1): [Errno 32] Broken pipe
+2025-07-22 19:55:24,839 - MCP_PIPE - INFO - Waiting 2.20 seconds before reconnection attempt 1...
+2025-07-22 19:55:26,623 - MCP_PIPE - INFO - Connecting to WebSocket server: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-22 19:55:27,037 - MCP_PIPE - INFO - Connecting to WebSocket server: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-22 19:55:27,259 - MCP_PIPE - INFO - Successfully connected to WebSocket server
+2025-07-22 19:55:27,266 - MCP_PIPE - INFO - Started src/core/universal_mcp_tool.py process
+2025-07-22 19:55:27,527 - MCP_PIPE - INFO - Successfully connected to WebSocket server
+2025-07-22 19:55:27,533 - MCP_PIPE - INFO - Started src/core/universal_mcp_tool.py process
+2025-07-22 19:55:29,059 - MCP_PIPE - ERROR - Error in process stderr pipe: [Errno 32] Broken pipe
+2025-07-22 19:55:29,127 - MCP_PIPE - ERROR - Error in WebSocket to process pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:55:29,127 - MCP_PIPE - ERROR - Error in process to WebSocket pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:55:29,128 - MCP_PIPE - ERROR - Connection error: [Errno 32] Broken pipe
+2025-07-22 19:55:29,128 - MCP_PIPE - INFO - Terminating src/core/universal_mcp_tool.py process
+2025-07-22 19:55:29,146 - MCP_PIPE - INFO - src/core/universal_mcp_tool.py process terminated
+2025-07-22 19:55:29,146 - MCP_PIPE - WARNING - Connection closed (attempt: 1): [Errno 32] Broken pipe
+2025-07-22 19:55:29,146 - MCP_PIPE - INFO - Waiting 2.03 seconds before reconnection attempt 1...
+2025-07-22 19:55:29,279 - MCP_PIPE - ERROR - Error in process stderr pipe: [Errno 32] Broken pipe
+2025-07-22 19:55:29,341 - MCP_PIPE - ERROR - Error in WebSocket to process pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:55:29,342 - MCP_PIPE - ERROR - Error in process to WebSocket pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:55:29,342 - MCP_PIPE - ERROR - Connection error: [Errno 32] Broken pipe
+2025-07-22 19:55:29,342 - MCP_PIPE - INFO - Terminating src/core/universal_mcp_tool.py process
+2025-07-22 19:55:29,361 - MCP_PIPE - INFO - src/core/universal_mcp_tool.py process terminated
+2025-07-22 19:55:29,361 - MCP_PIPE - WARNING - Connection closed (attempt: 1): [Errno 32] Broken pipe
+2025-07-22 19:55:29,362 - MCP_PIPE - INFO - Waiting 2.03 seconds before reconnection attempt 1...
+2025-07-22 19:55:31,176 - MCP_PIPE - INFO - Connecting to WebSocket server: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-22 19:55:31,391 - MCP_PIPE - INFO - Connecting to WebSocket server: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-22 19:55:31,614 - MCP_PIPE - INFO - Successfully connected to WebSocket server
+2025-07-22 19:55:31,625 - MCP_PIPE - INFO - Started src/core/universal_mcp_tool.py process
+2025-07-22 19:55:31,809 - MCP_PIPE - INFO - Successfully connected to WebSocket server
+2025-07-22 19:55:31,815 - MCP_PIPE - INFO - Started src/core/universal_mcp_tool.py process
+2025-07-22 19:55:33,034 - MCP_PIPE - ERROR - Error in process stderr pipe: [Errno 32] Broken pipe
+2025-07-22 19:55:33,114 - MCP_PIPE - ERROR - Error in process to WebSocket pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:55:33,114 - MCP_PIPE - ERROR - Connection error: [Errno 32] Broken pipe
+2025-07-22 19:55:33,114 - MCP_PIPE - INFO - Terminating src/core/universal_mcp_tool.py process
+2025-07-22 19:55:33,131 - MCP_PIPE - INFO - src/core/universal_mcp_tool.py process terminated
+2025-07-22 19:55:33,131 - MCP_PIPE - WARNING - Connection closed (attempt: 1): [Errno 32] Broken pipe
+2025-07-22 19:55:33,131 - MCP_PIPE - INFO - Waiting 2.00 seconds before reconnection attempt 1...
+2025-07-22 19:55:33,131 - MCP_PIPE - ERROR - Error in WebSocket to process pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:55:33,147 - MCP_PIPE - ERROR - Error in process stderr pipe: [Errno 32] Broken pipe
+2025-07-22 19:55:33,210 - MCP_PIPE - ERROR - Error in WebSocket to process pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:55:33,212 - MCP_PIPE - ERROR - Error in process to WebSocket pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:55:33,212 - MCP_PIPE - ERROR - Connection error: [Errno 32] Broken pipe
+2025-07-22 19:55:33,212 - MCP_PIPE - INFO - Terminating src/core/universal_mcp_tool.py process
+2025-07-22 19:55:33,221 - MCP_PIPE - INFO - src/core/universal_mcp_tool.py process terminated
+2025-07-22 19:55:33,221 - MCP_PIPE - WARNING - Connection closed (attempt: 1): [Errno 32] Broken pipe
+2025-07-22 19:55:33,221 - MCP_PIPE - INFO - Waiting 2.05 seconds before reconnection attempt 1...
+2025-07-22 19:55:35,132 - MCP_PIPE - INFO - Connecting to WebSocket server: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-22 19:55:35,276 - MCP_PIPE - INFO - Connecting to WebSocket server: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-22 19:55:35,515 - MCP_PIPE - INFO - Successfully connected to WebSocket server
+2025-07-22 19:55:35,522 - MCP_PIPE - INFO - Started src/core/universal_mcp_tool.py process
+2025-07-22 19:55:35,661 - MCP_PIPE - INFO - Successfully connected to WebSocket server
+2025-07-22 19:55:35,669 - MCP_PIPE - INFO - Started src/core/universal_mcp_tool.py process
+2025-07-22 19:55:37,571 - MCP_PIPE - ERROR - Error in process stderr pipe: [Errno 32] Broken pipe
+2025-07-22 19:55:37,572 - MCP_PIPE - ERROR - Error in process stderr pipe: [Errno 32] Broken pipe
+2025-07-22 19:55:37,644 - MCP_PIPE - ERROR - Error in WebSocket to process pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:55:37,644 - MCP_PIPE - ERROR - Error in process to WebSocket pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:55:37,645 - MCP_PIPE - ERROR - Connection error: [Errno 32] Broken pipe
+2025-07-22 19:55:37,645 - MCP_PIPE - INFO - Terminating src/core/universal_mcp_tool.py process
+2025-07-22 19:55:37,648 - MCP_PIPE - ERROR - Error in WebSocket to process pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:55:37,649 - MCP_PIPE - ERROR - Error in process to WebSocket pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:55:37,649 - MCP_PIPE - ERROR - Connection error: [Errno 32] Broken pipe
+2025-07-22 19:55:37,649 - MCP_PIPE - INFO - Terminating src/core/universal_mcp_tool.py process
+2025-07-22 19:55:37,663 - MCP_PIPE - INFO - src/core/universal_mcp_tool.py process terminated
+2025-07-22 19:55:37,663 - MCP_PIPE - WARNING - Connection closed (attempt: 1): [Errno 32] Broken pipe
+2025-07-22 19:55:37,663 - MCP_PIPE - INFO - Waiting 2.16 seconds before reconnection attempt 1...
+2025-07-22 19:55:37,666 - MCP_PIPE - INFO - src/core/universal_mcp_tool.py process terminated
+2025-07-22 19:55:37,667 - MCP_PIPE - WARNING - Connection closed (attempt: 1): [Errno 32] Broken pipe
+2025-07-22 19:55:37,667 - MCP_PIPE - INFO - Waiting 2.06 seconds before reconnection attempt 1...
+2025-07-22 19:55:39,727 - MCP_PIPE - INFO - Connecting to WebSocket server: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-22 19:55:39,829 - MCP_PIPE - INFO - Connecting to WebSocket server: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-22 19:55:40,200 - MCP_PIPE - INFO - Successfully connected to WebSocket server
+2025-07-22 19:55:40,215 - MCP_PIPE - INFO - Started src/core/universal_mcp_tool.py process
+2025-07-22 19:55:40,254 - MCP_PIPE - INFO - Successfully connected to WebSocket server
+2025-07-22 19:55:40,267 - MCP_PIPE - INFO - Started src/core/universal_mcp_tool.py process
+2025-07-22 19:55:46,531 - MCP_PIPE - ERROR - Error in process stderr pipe: [Errno 32] Broken pipe
+2025-07-22 19:55:46,537 - MCP_PIPE - ERROR - Error in process stderr pipe: [Errno 32] Broken pipe
+2025-07-22 19:55:46,596 - MCP_PIPE - ERROR - Error in WebSocket to process pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:55:46,597 - MCP_PIPE - ERROR - Error in process to WebSocket pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:55:46,597 - MCP_PIPE - ERROR - Connection error: [Errno 32] Broken pipe
+2025-07-22 19:55:46,597 - MCP_PIPE - INFO - Terminating src/core/universal_mcp_tool.py process
+2025-07-22 19:55:46,600 - MCP_PIPE - ERROR - Error in WebSocket to process pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:55:46,600 - MCP_PIPE - ERROR - Error in process to WebSocket pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:55:46,600 - MCP_PIPE - ERROR - Connection error: [Errno 32] Broken pipe
+2025-07-22 19:55:46,601 - MCP_PIPE - INFO - Terminating src/core/universal_mcp_tool.py process
+2025-07-22 19:55:46,616 - MCP_PIPE - INFO - src/core/universal_mcp_tool.py process terminated
+2025-07-22 19:55:46,617 - MCP_PIPE - WARNING - Connection closed (attempt: 1): [Errno 32] Broken pipe
+2025-07-22 19:55:46,617 - MCP_PIPE - INFO - Waiting 2.05 seconds before reconnection attempt 1...
+2025-07-22 19:55:46,620 - MCP_PIPE - INFO - src/core/universal_mcp_tool.py process terminated
+2025-07-22 19:55:46,620 - MCP_PIPE - WARNING - Connection closed (attempt: 1): [Errno 32] Broken pipe
+2025-07-22 19:55:46,621 - MCP_PIPE - INFO - Waiting 2.00 seconds before reconnection attempt 1...
+2025-07-22 19:55:48,625 - MCP_PIPE - INFO - Connecting to WebSocket server: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-22 19:55:48,671 - MCP_PIPE - INFO - Connecting to WebSocket server: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-22 19:55:49,013 - MCP_PIPE - INFO - Successfully connected to WebSocket server
+2025-07-22 19:55:49,017 - MCP_PIPE - INFO - Successfully connected to WebSocket server
+2025-07-22 19:55:49,021 - MCP_PIPE - INFO - Started src/core/universal_mcp_tool.py process
+2025-07-22 19:55:49,024 - MCP_PIPE - INFO - Started src/core/universal_mcp_tool.py process
+2025-07-22 19:55:51,524 - MCP_PIPE - ERROR - Error in process stderr pipe: [Errno 32] Broken pipe
+2025-07-22 19:55:51,529 - MCP_PIPE - ERROR - Error in process stderr pipe: [Errno 32] Broken pipe
+2025-07-22 19:55:51,595 - MCP_PIPE - ERROR - Error in WebSocket to process pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:55:51,596 - MCP_PIPE - ERROR - Error in WebSocket to process pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:55:51,596 - MCP_PIPE - ERROR - Connection error: [Errno 32] Broken pipe
+2025-07-22 19:55:51,596 - MCP_PIPE - INFO - Terminating src/core/universal_mcp_tool.py process
+2025-07-22 19:55:51,596 - MCP_PIPE - ERROR - Connection error: [Errno 32] Broken pipe
+2025-07-22 19:55:51,596 - MCP_PIPE - INFO - Terminating src/core/universal_mcp_tool.py process
+2025-07-22 19:55:51,666 - MCP_PIPE - INFO - src/core/universal_mcp_tool.py process terminated
+2025-07-22 19:55:51,666 - MCP_PIPE - WARNING - Connection closed (attempt: 1): [Errno 32] Broken pipe
+2025-07-22 19:55:51,666 - MCP_PIPE - INFO - Waiting 2.06 seconds before reconnection attempt 1...
+2025-07-22 19:55:51,666 - MCP_PIPE - INFO - src/core/universal_mcp_tool.py process terminated
+2025-07-22 19:55:51,666 - MCP_PIPE - WARNING - Connection closed (attempt: 1): [Errno 32] Broken pipe
+2025-07-22 19:55:51,666 - MCP_PIPE - INFO - Process has ended output
+2025-07-22 19:55:51,667 - MCP_PIPE - INFO - Waiting 2.10 seconds before reconnection attempt 1...
+2025-07-22 19:55:51,667 - MCP_PIPE - INFO - Process has ended output
+2025-07-22 19:55:53,724 - MCP_PIPE - INFO - Connecting to WebSocket server: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-22 19:55:53,765 - MCP_PIPE - INFO - Connecting to WebSocket server: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-22 19:55:54,251 - MCP_PIPE - INFO - Successfully connected to WebSocket server
+2025-07-22 19:55:54,253 - MCP_PIPE - INFO - Successfully connected to WebSocket server
+2025-07-22 19:55:54,270 - MCP_PIPE - INFO - Started src/core/universal_mcp_tool.py process
+2025-07-22 19:55:54,272 - MCP_PIPE - INFO - Started src/core/universal_mcp_tool.py process
+2025-07-22 19:55:56,060 - MCP_PIPE - ERROR - Error in process stderr pipe: [Errno 32] Broken pipe
+2025-07-22 19:55:56,060 - MCP_PIPE - ERROR - Error in process stderr pipe: [Errno 32] Broken pipe
+2025-07-22 19:55:56,141 - MCP_PIPE - ERROR - Error in WebSocket to process pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:55:56,142 - MCP_PIPE - ERROR - Error in WebSocket to process pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:55:56,145 - MCP_PIPE - ERROR - Connection error: [Errno 32] Broken pipe
+2025-07-22 19:55:56,145 - MCP_PIPE - INFO - Terminating src/core/universal_mcp_tool.py process
+2025-07-22 19:55:56,147 - MCP_PIPE - ERROR - Connection error: [Errno 32] Broken pipe
+2025-07-22 19:55:56,147 - MCP_PIPE - INFO - Terminating src/core/universal_mcp_tool.py process
+2025-07-22 19:55:56,274 - MCP_PIPE - INFO - src/core/universal_mcp_tool.py process terminated
+2025-07-22 19:55:56,274 - MCP_PIPE - INFO - src/core/universal_mcp_tool.py process terminated
+2025-07-22 19:55:56,274 - MCP_PIPE - WARNING - Connection closed (attempt: 1): [Errno 32] Broken pipe
+2025-07-22 19:55:56,274 - MCP_PIPE - WARNING - Connection closed (attempt: 1): [Errno 32] Broken pipe
+2025-07-22 19:55:56,274 - MCP_PIPE - INFO - Waiting 2.18 seconds before reconnection attempt 1...
+2025-07-22 19:55:56,274 - MCP_PIPE - INFO - Waiting 2.16 seconds before reconnection attempt 1...
+2025-07-22 19:55:56,275 - MCP_PIPE - INFO - Process has ended output
+2025-07-22 19:55:56,275 - MCP_PIPE - INFO - Process has ended output
+2025-07-22 19:55:58,435 - MCP_PIPE - INFO - Connecting to WebSocket server: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-22 19:55:58,459 - MCP_PIPE - INFO - Connecting to WebSocket server: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-22 19:55:58,847 - MCP_PIPE - INFO - Successfully connected to WebSocket server
+2025-07-22 19:55:58,859 - MCP_PIPE - INFO - Started src/core/universal_mcp_tool.py process
+2025-07-22 19:55:58,914 - MCP_PIPE - INFO - Successfully connected to WebSocket server
+2025-07-22 19:55:58,920 - MCP_PIPE - INFO - Started src/core/universal_mcp_tool.py process
+2025-07-22 19:56:00,982 - MCP_PIPE - ERROR - Error in process stderr pipe: [Errno 32] Broken pipe
+2025-07-22 19:56:01,001 - MCP_PIPE - ERROR - Error in process stderr pipe: [Errno 32] Broken pipe
+2025-07-22 19:56:01,056 - MCP_PIPE - ERROR - Error in WebSocket to process pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:56:01,057 - MCP_PIPE - ERROR - Error in process to WebSocket pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:56:01,058 - MCP_PIPE - ERROR - Connection error: [Errno 32] Broken pipe
+2025-07-22 19:56:01,058 - MCP_PIPE - ERROR - Error in WebSocket to process pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:56:01,058 - MCP_PIPE - INFO - Terminating src/core/universal_mcp_tool.py process
+2025-07-22 19:56:01,058 - MCP_PIPE - ERROR - Connection error: [Errno 32] Broken pipe
+2025-07-22 19:56:01,058 - MCP_PIPE - INFO - Terminating src/core/universal_mcp_tool.py process
+2025-07-22 19:56:01,092 - MCP_PIPE - INFO - src/core/universal_mcp_tool.py process terminated
+2025-07-22 19:56:01,093 - MCP_PIPE - INFO - src/core/universal_mcp_tool.py process terminated
+2025-07-22 19:56:01,094 - MCP_PIPE - WARNING - Connection closed (attempt: 1): [Errno 32] Broken pipe
+2025-07-22 19:56:01,094 - MCP_PIPE - WARNING - Connection closed (attempt: 1): [Errno 32] Broken pipe
+2025-07-22 19:56:01,094 - MCP_PIPE - INFO - Waiting 2.15 seconds before reconnection attempt 1...
+2025-07-22 19:56:01,094 - MCP_PIPE - INFO - Waiting 2.19 seconds before reconnection attempt 1...
+2025-07-22 19:56:01,095 - MCP_PIPE - INFO - Process has ended output
+2025-07-22 19:56:03,242 - MCP_PIPE - INFO - Connecting to WebSocket server: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-22 19:56:03,288 - MCP_PIPE - INFO - Connecting to WebSocket server: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-22 19:56:03,586 - MCP_PIPE - INFO - Successfully connected to WebSocket server
+2025-07-22 19:56:03,595 - MCP_PIPE - INFO - Started src/core/universal_mcp_tool.py process
+2025-07-22 19:56:03,626 - MCP_PIPE - INFO - Successfully connected to WebSocket server
+2025-07-22 19:56:03,644 - MCP_PIPE - INFO - Started src/core/universal_mcp_tool.py process
+2025-07-22 19:56:07,029 - MCP_PIPE - ERROR - Error in process stderr pipe: [Errno 32] Broken pipe
+2025-07-22 19:56:07,044 - MCP_PIPE - ERROR - Error in process stderr pipe: [Errno 32] Broken pipe
+2025-07-22 19:56:07,108 - MCP_PIPE - ERROR - Error in WebSocket to process pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:56:07,109 - MCP_PIPE - ERROR - Connection error: [Errno 32] Broken pipe
+2025-07-22 19:56:07,109 - MCP_PIPE - INFO - Terminating src/core/universal_mcp_tool.py process
+2025-07-22 19:56:07,117 - MCP_PIPE - ERROR - Error in WebSocket to process pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:56:07,120 - MCP_PIPE - ERROR - Connection error: [Errno 32] Broken pipe
+2025-07-22 19:56:07,121 - MCP_PIPE - INFO - Terminating src/core/universal_mcp_tool.py process
+2025-07-22 19:56:07,130 - MCP_PIPE - INFO - src/core/universal_mcp_tool.py process terminated
+2025-07-22 19:56:07,130 - MCP_PIPE - WARNING - Connection closed (attempt: 1): [Errno 32] Broken pipe
+2025-07-22 19:56:07,131 - MCP_PIPE - INFO - Waiting 2.08 seconds before reconnection attempt 1...
+2025-07-22 19:56:07,131 - MCP_PIPE - INFO - Process has ended output
+2025-07-22 19:56:07,140 - MCP_PIPE - INFO - src/core/universal_mcp_tool.py process terminated
+2025-07-22 19:56:07,140 - MCP_PIPE - WARNING - Connection closed (attempt: 1): [Errno 32] Broken pipe
+2025-07-22 19:56:07,141 - MCP_PIPE - INFO - Waiting 2.17 seconds before reconnection attempt 1...
+2025-07-22 19:56:07,141 - MCP_PIPE - INFO - Process has ended output
+2025-07-22 19:56:09,214 - MCP_PIPE - INFO - Connecting to WebSocket server: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-22 19:56:09,399 - MCP_PIPE - INFO - Connecting to WebSocket server: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-22 19:56:09,855 - MCP_PIPE - INFO - Successfully connected to WebSocket server
+2025-07-22 19:56:09,860 - MCP_PIPE - INFO - Started src/core/universal_mcp_tool.py process
+2025-07-22 19:56:09,899 - MCP_PIPE - INFO - Successfully connected to WebSocket server
+2025-07-22 19:56:09,905 - MCP_PIPE - INFO - Started src/core/universal_mcp_tool.py process
+2025-07-22 19:56:11,856 - MCP_PIPE - ERROR - Error in process stderr pipe: [Errno 32] Broken pipe
+2025-07-22 19:56:11,857 - MCP_PIPE - ERROR - Error in process stderr pipe: [Errno 32] Broken pipe
+2025-07-22 19:56:11,918 - MCP_PIPE - ERROR - Error in WebSocket to process pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:56:11,919 - MCP_PIPE - ERROR - Error in process to WebSocket pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:56:11,919 - MCP_PIPE - ERROR - Connection error: [Errno 32] Broken pipe
+2025-07-22 19:56:11,919 - MCP_PIPE - INFO - Terminating src/core/universal_mcp_tool.py process
+2025-07-22 19:56:11,920 - MCP_PIPE - ERROR - Error in WebSocket to process pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:56:11,921 - MCP_PIPE - ERROR - Error in process to WebSocket pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:56:11,921 - MCP_PIPE - ERROR - Connection error: [Errno 32] Broken pipe
+2025-07-22 19:56:11,921 - MCP_PIPE - INFO - Terminating src/core/universal_mcp_tool.py process
+2025-07-22 19:56:11,930 - MCP_PIPE - INFO - src/core/universal_mcp_tool.py process terminated
+2025-07-22 19:56:11,930 - MCP_PIPE - WARNING - Connection closed (attempt: 1): [Errno 32] Broken pipe
+2025-07-22 19:56:11,931 - MCP_PIPE - INFO - Waiting 2.12 seconds before reconnection attempt 1...
+2025-07-22 19:56:11,933 - MCP_PIPE - INFO - src/core/universal_mcp_tool.py process terminated
+2025-07-22 19:56:11,933 - MCP_PIPE - WARNING - Connection closed (attempt: 1): [Errno 32] Broken pipe
+2025-07-22 19:56:11,933 - MCP_PIPE - INFO - Waiting 2.05 seconds before reconnection attempt 1...
+2025-07-22 19:56:13,989 - MCP_PIPE - INFO - Connecting to WebSocket server: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-22 19:56:14,054 - MCP_PIPE - INFO - Connecting to WebSocket server: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-22 19:56:14,335 - MCP_PIPE - INFO - Successfully connected to WebSocket server
+2025-07-22 19:56:14,340 - MCP_PIPE - INFO - Started src/core/universal_mcp_tool.py process
+2025-07-22 19:56:14,372 - MCP_PIPE - INFO - Successfully connected to WebSocket server
+2025-07-22 19:56:14,379 - MCP_PIPE - INFO - Started src/core/universal_mcp_tool.py process
+2025-07-22 19:56:16,143 - MCP_PIPE - ERROR - Error in process stderr pipe: [Errno 32] Broken pipe
+2025-07-22 19:56:16,177 - MCP_PIPE - ERROR - Error in process stderr pipe: [Errno 32] Broken pipe
+2025-07-22 19:56:16,209 - MCP_PIPE - ERROR - Error in WebSocket to process pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:56:16,209 - MCP_PIPE - ERROR - Error in process to WebSocket pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:56:16,210 - MCP_PIPE - ERROR - Connection error: [Errno 32] Broken pipe
+2025-07-22 19:56:16,210 - MCP_PIPE - INFO - Terminating src/core/universal_mcp_tool.py process
+2025-07-22 19:56:16,226 - MCP_PIPE - INFO - src/core/universal_mcp_tool.py process terminated
+2025-07-22 19:56:16,228 - MCP_PIPE - WARNING - Connection closed (attempt: 1): [Errno 32] Broken pipe
+2025-07-22 19:56:16,228 - MCP_PIPE - INFO - Waiting 2.02 seconds before reconnection attempt 1...
+2025-07-22 19:56:16,247 - MCP_PIPE - ERROR - Error in WebSocket to process pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:56:16,248 - MCP_PIPE - ERROR - Error in process to WebSocket pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:56:16,248 - MCP_PIPE - ERROR - Connection error: [Errno 32] Broken pipe
+2025-07-22 19:56:16,248 - MCP_PIPE - INFO - Terminating src/core/universal_mcp_tool.py process
+2025-07-22 19:56:16,265 - MCP_PIPE - INFO - src/core/universal_mcp_tool.py process terminated
+2025-07-22 19:56:16,266 - MCP_PIPE - WARNING - Connection closed (attempt: 1): [Errno 32] Broken pipe
+2025-07-22 19:56:16,266 - MCP_PIPE - INFO - Waiting 2.15 seconds before reconnection attempt 1...
+2025-07-22 19:56:18,279 - MCP_PIPE - INFO - Connecting to WebSocket server: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-22 19:56:18,414 - MCP_PIPE - INFO - Connecting to WebSocket server: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-22 19:56:18,655 - MCP_PIPE - INFO - Successfully connected to WebSocket server
+2025-07-22 19:56:18,662 - MCP_PIPE - INFO - Started src/core/universal_mcp_tool.py process
+2025-07-22 19:56:18,789 - MCP_PIPE - INFO - Successfully connected to WebSocket server
+2025-07-22 19:56:18,795 - MCP_PIPE - INFO - Started src/core/universal_mcp_tool.py process
+2025-07-22 19:56:20,288 - MCP_PIPE - ERROR - Error in process stderr pipe: [Errno 32] Broken pipe
+2025-07-22 19:56:20,359 - MCP_PIPE - ERROR - Error in WebSocket to process pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:56:20,360 - MCP_PIPE - ERROR - Error in process to WebSocket pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:56:20,360 - MCP_PIPE - ERROR - Connection error: [Errno 32] Broken pipe
+2025-07-22 19:56:20,360 - MCP_PIPE - INFO - Terminating src/core/universal_mcp_tool.py process
+2025-07-22 19:56:20,377 - MCP_PIPE - INFO - src/core/universal_mcp_tool.py process terminated
+2025-07-22 19:56:20,377 - MCP_PIPE - WARNING - Connection closed (attempt: 1): [Errno 32] Broken pipe
+2025-07-22 19:56:20,377 - MCP_PIPE - INFO - Waiting 2.10 seconds before reconnection attempt 1...
+2025-07-22 19:56:20,444 - MCP_PIPE - ERROR - Error in process stderr pipe: [Errno 32] Broken pipe
+2025-07-22 19:56:20,551 - MCP_PIPE - ERROR - Error in WebSocket to process pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:56:20,552 - MCP_PIPE - ERROR - Error in process to WebSocket pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:56:20,552 - MCP_PIPE - ERROR - Connection error: [Errno 32] Broken pipe
+2025-07-22 19:56:20,552 - MCP_PIPE - INFO - Terminating src/core/universal_mcp_tool.py process
+2025-07-22 19:56:20,575 - MCP_PIPE - INFO - src/core/universal_mcp_tool.py process terminated
+2025-07-22 19:56:20,575 - MCP_PIPE - WARNING - Connection closed (attempt: 1): [Errno 32] Broken pipe
+2025-07-22 19:56:20,575 - MCP_PIPE - INFO - Waiting 2.08 seconds before reconnection attempt 1...
+2025-07-22 19:56:22,476 - MCP_PIPE - INFO - Connecting to WebSocket server: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-22 19:56:22,659 - MCP_PIPE - INFO - Connecting to WebSocket server: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-22 19:56:22,810 - MCP_PIPE - INFO - Successfully connected to WebSocket server
+2025-07-22 19:56:22,817 - MCP_PIPE - INFO - Started src/core/universal_mcp_tool.py process
+2025-07-22 19:56:23,007 - MCP_PIPE - INFO - Successfully connected to WebSocket server
+2025-07-22 19:56:23,022 - MCP_PIPE - INFO - Started src/core/universal_mcp_tool.py process
+2025-07-22 19:56:24,470 - MCP_PIPE - ERROR - Error in process stderr pipe: [Errno 32] Broken pipe
+2025-07-22 19:56:24,531 - MCP_PIPE - ERROR - Error in WebSocket to process pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:56:24,532 - MCP_PIPE - ERROR - Error in process to WebSocket pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:56:24,532 - MCP_PIPE - ERROR - Connection error: [Errno 32] Broken pipe
+2025-07-22 19:56:24,533 - MCP_PIPE - INFO - Terminating src/core/universal_mcp_tool.py process
+2025-07-22 19:56:24,550 - MCP_PIPE - INFO - src/core/universal_mcp_tool.py process terminated
+2025-07-22 19:56:24,551 - MCP_PIPE - WARNING - Connection closed (attempt: 1): [Errno 32] Broken pipe
+2025-07-22 19:56:24,551 - MCP_PIPE - INFO - Waiting 2.04 seconds before reconnection attempt 1...
+2025-07-22 19:56:24,722 - MCP_PIPE - ERROR - Error in process stderr pipe: [Errno 32] Broken pipe
+2025-07-22 19:56:24,776 - MCP_PIPE - ERROR - Error in WebSocket to process pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:56:24,776 - MCP_PIPE - ERROR - Error in process to WebSocket pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:56:24,777 - MCP_PIPE - ERROR - Connection error: [Errno 32] Broken pipe
+2025-07-22 19:56:24,777 - MCP_PIPE - INFO - Terminating src/core/universal_mcp_tool.py process
+2025-07-22 19:56:24,796 - MCP_PIPE - INFO - src/core/universal_mcp_tool.py process terminated
+2025-07-22 19:56:24,796 - MCP_PIPE - WARNING - Connection closed (attempt: 1): [Errno 32] Broken pipe
+2025-07-22 19:56:24,796 - MCP_PIPE - INFO - Waiting 2.03 seconds before reconnection attempt 1...
+2025-07-22 19:56:26,591 - MCP_PIPE - INFO - Connecting to WebSocket server: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-22 19:56:26,825 - MCP_PIPE - INFO - Connecting to WebSocket server: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-22 19:56:26,902 - MCP_PIPE - INFO - Successfully connected to WebSocket server
+2025-07-22 19:56:26,907 - MCP_PIPE - INFO - Started src/core/universal_mcp_tool.py process
+2025-07-22 19:56:27,139 - MCP_PIPE - INFO - Successfully connected to WebSocket server
+2025-07-22 19:56:27,146 - MCP_PIPE - INFO - Started src/core/universal_mcp_tool.py process
+2025-07-22 19:56:28,511 - MCP_PIPE - ERROR - Error in process stderr pipe: [Errno 32] Broken pipe
+2025-07-22 19:56:28,582 - MCP_PIPE - ERROR - Error in WebSocket to process pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:56:28,582 - MCP_PIPE - ERROR - Error in process to WebSocket pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:56:28,582 - MCP_PIPE - ERROR - Connection error: [Errno 32] Broken pipe
+2025-07-22 19:56:28,583 - MCP_PIPE - INFO - Terminating src/core/universal_mcp_tool.py process
+2025-07-22 19:56:28,602 - MCP_PIPE - INFO - src/core/universal_mcp_tool.py process terminated
+2025-07-22 19:56:28,602 - MCP_PIPE - WARNING - Connection closed (attempt: 1): [Errno 32] Broken pipe
+2025-07-22 19:56:28,602 - MCP_PIPE - INFO - Waiting 2.06 seconds before reconnection attempt 1...
+2025-07-22 19:56:28,757 - MCP_PIPE - ERROR - Error in process stderr pipe: [Errno 32] Broken pipe
+2025-07-22 19:56:28,824 - MCP_PIPE - ERROR - Error in WebSocket to process pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:56:28,825 - MCP_PIPE - ERROR - Error in process to WebSocket pipe: sent 1000 (OK); then received 1000 (OK)
+2025-07-22 19:56:28,825 - MCP_PIPE - ERROR - Connection error: [Errno 32] Broken pipe
+2025-07-22 19:56:28,826 - MCP_PIPE - INFO - Terminating src/core/universal_mcp_tool.py process
+2025-07-22 19:56:28,835 - MCP_PIPE - INFO - src/core/universal_mcp_tool.py process terminated
+2025-07-22 19:56:28,835 - MCP_PIPE - WARNING - Connection closed (attempt: 1): [Errno 32] Broken pipe
+2025-07-22 19:56:28,835 - MCP_PIPE - INFO - Waiting 2.18 seconds before reconnection attempt 1...
