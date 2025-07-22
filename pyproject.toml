@@ -1,0 +1,45 @@
+[project]
+name = "universal-mcp-tool"
+version = "1.0.0"
+description = "万能MCP工具 - 将Web API转化为MCP工具，集成RAG知识库"
+authors = ["Universal MCP Tool Team"]
+license = "MIT"
+readme = "README.md"
+requires-python = ">=3.8"
+
+[project.dependencies]
+requests = ">=2.25.0"
+fastmcp = ">=0.1.0"
+flask = ">=2.0.0,<3.0.0"
+werkzeug = ">=2.0.0,<3.0.0"
+sentence-transformers = ">=2.2.0,<3.0.0"
+transformers = ">=4.20.0,<5.0.0"
+torch = ">=1.12.0,<3.0.0"
+jieba = ">=0.42.0"
+numpy = ">=1.21.0,<2.0.0"
+scipy = ">=1.7.0,<2.0.0"
+scikit-learn = ">=1.0.0,<2.0.0"
+PyPDF2 = ">=3.0.0"
+python-docx = ">=0.8.11"
+pandas = ">=1.3.0,<3.0.0"
+openpyxl = ">=3.0.0"
+tkinter-tooltip = ">=2.0.0"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=6.0",
+    "black>=22.0",
+    "flake8>=4.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/universal-mcp-tool/universal-mcp-tool"
+Repository = "https://github.com/universal-mcp-tool/universal-mcp-tool"
+Documentation = "https://github.com/universal-mcp-tool/universal-mcp-tool/blob/main/README.md"
+
+[project.scripts]
+universal-mcp = "main:main"
+
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"

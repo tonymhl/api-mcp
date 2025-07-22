@@ -1,0 +1,40 @@
+[
+  {
+    "api_name": "日记",
+    "api_url": "https://api.52vmy.cn/api/wl/yan/tiangou",
+    "method": "GET",
+    "request_format": {},
+    "response_format": {
+      "code": "number",
+      "msg": "string",
+      "content": "string"
+    },
+    "description": "随机获取一个日记内容"
+  },
+  {
+    "api_name": "绕口令",
+    "api_url": "https://api.52vmy.cn/api/wl/yan/rao",
+    "method": "GET",
+    "request_format": {},
+    "response_format": {
+      "code": "number",
+      "msg": "string",
+      "data": {
+        "title": "string",
+        "msg": "string"
+      }
+    },
+    "description": "获取一个绕口令"
+  },
+  {
+    "api_name": "GDS万国数据财报问答知识",
+    "api_url": "http://localhost:5000/api/gds_intro",
+    "method": "GET",
+    "request_format": {},
+    "response_format": {
+      "success": "boolean",
+      "content": "string"
+    },
+    "description": "获取GDS万国数据的财报相关问答知识"
+  }
+]

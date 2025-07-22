@@ -1,0 +1,15 @@
+2025-07-22 00:32:28,489 - MCP_PIPE - INFO - 使用MCP端点: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-22 00:32:28,489 - MCP_PIPE - INFO - Connecting to WebSocket server: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-22 00:32:28,775 - MCP_PIPE - INFO - Successfully connected to WebSocket server
+2025-07-22 00:32:28,789 - MCP_PIPE - INFO - Started /Users/honglima/Desktop/Workspace/api-mcp/src/core/universal_mcp_tool.py process
+2025-07-22 00:32:30,771 - MCP_PIPE - ERROR - Error in WebSocket to process pipe: no close frame received or sent
+2025-07-22 00:32:30,771 - MCP_PIPE - ERROR - WebSocket connection closed: no close frame received or sent
+2025-07-22 00:32:30,771 - MCP_PIPE - INFO - Terminating /Users/honglima/Desktop/Workspace/api-mcp/src/core/universal_mcp_tool.py process
+2025-07-22 00:32:30,791 - MCP_PIPE - INFO - /Users/honglima/Desktop/Workspace/api-mcp/src/core/universal_mcp_tool.py process terminated
+2025-07-22 00:32:30,791 - MCP_PIPE - WARNING - Connection closed (attempt: 1): no close frame received or sent
+2025-07-22 00:32:30,792 - MCP_PIPE - INFO - Waiting 2.06 seconds before reconnection attempt 1...
+2025-07-22 00:32:30,792 - MCP_PIPE - INFO - Process has ended stderr output
+2025-07-22 00:32:30,792 - MCP_PIPE - INFO - Process has ended output
+2025-07-22 00:32:32,853 - MCP_PIPE - INFO - Connecting to WebSocket server: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-22 00:32:33,073 - MCP_PIPE - INFO - Successfully connected to WebSocket server
+2025-07-22 00:32:33,089 - MCP_PIPE - INFO - Started /Users/honglima/Desktop/Workspace/api-mcp/src/core/universal_mcp_tool.py process

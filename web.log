@@ -1,0 +1,28 @@
+🌐 启动简化版知识库Web界面...
+📁 上传目录: /Users/honglima/Desktop/Workspace/api-mcp/data/uploads
+🔌 监听端口: 5000
+ * Serving Flask app 'simple_web'
+ * Debug mode: on
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.71.44:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 370-267-462
+🌐 启动简化版知识库Web界面...
+📁 上传目录: /Users/honglima/Desktop/Workspace/api-mcp/data/uploads
+🔌 监听端口: 5000
+Traceback (most recent call last):
+  File "/Users/honglima/Desktop/Workspace/api-mcp/src/web/simple_web.py", line 517, in <module>
+    app.run(host='0.0.0.0', port=port, debug=True)
+  File "/Users/honglima/opt/anaconda3/envs/wanguo/lib/python3.10/site-packages/flask/app.py", line 662, in run
+    run_simple(t.cast(str, host), port, self, **options)
+  File "/Users/honglima/opt/anaconda3/envs/wanguo/lib/python3.10/site-packages/werkzeug/serving.py", line 1115, in run_simple
+    run_with_reloader(
+  File "/Users/honglima/opt/anaconda3/envs/wanguo/lib/python3.10/site-packages/werkzeug/_reloader.py", line 459, in run_with_reloader
+    ensure_echo_on()
+  File "/Users/honglima/opt/anaconda3/envs/wanguo/lib/python3.10/site-packages/werkzeug/_reloader.py", line 439, in ensure_echo_on
+    termios.tcsetattr(sys.stdin, termios.TCSANOW, attributes)
+termios.error: (4, 'Interrupted system call')

@@ -1,0 +1,176 @@
+{% extends "base.html" %}
+
+{% block title %}知识库搜索 - 知识库管理系统{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-8">
+        <h2>知识库搜索</h2>
+        <div class="card">
+            <div class="card-body">
+                <div class="mb-3">
+                    <label for="searchQuery" class="form-label">搜索问题</label>
+                    <input type="text" class="form-control" id="searchQuery" placeholder="请输入您的问题...">
+                </div>
+                <div class="mb-3">
+                    <label for="topK" class="form-label">返回结果数量</label>
+                    <select class="form-select" id="topK">
+                        <option value="3">3</option>
+                        <option value="5" selected>5</option>
+                        <option value="10">10</option>
+                    </select>
+                </div>
+                <button type="button" class="btn btn-primary" onclick="searchKnowledge()">搜索</button>
+            </div>
+        </div>
+        
+        <div id="searchResults" class="mt-4"></div>
+    </div>
+    
+    <div class="col-md-4">
+        <h3>添加文本内容</h3>
+        <div class="card">
+            <div class="card-body">
+                <div class="mb-3">
+                    <label for="textContent" class="form-label">文本内容</label>
+                    <textarea class="form-control" id="textContent" rows="5" placeholder="请输入要添加的文本内容..."></textarea>
+                </div>
+                <div class="mb-3">
+                    <label for="textFilename" class="form-label">文件名</label>
+                    <input type="text" class="form-control" id="textFilename" placeholder="manual_input.txt">
+                </div>
+                <button type="button" class="btn btn-success" onclick="uploadText()">添加到知识库</button>
+            </div>
+        </div>
+        
+        <h3 class="mt-4">上传文件</h3>
+        <div class="card">
+            <div class="card-body">
+                <div class="mb-3">
+                    <label for="fileUpload" class="form-label">选择文件</label>
+                    <input type="file" class="form-control" id="fileUpload" accept=".txt,.pdf,.doc,.docx,.xls,.xlsx,.csv">
+                </div>
+                <button type="button" class="btn btn-success" onclick="uploadFile()">上传文件</button>
+                <div class="mt-2">
+                    <small class="text-muted">支持格式: TXT, PDF, DOC, DOCX, XLS, XLSX, CSV</small>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+async function searchKnowledge() {
+    const query = document.getElementById('searchQuery').value;
+    const topK = document.getElementById('topK').value;
+    
+    if (!query.trim()) {
+        alert('请输入搜索问题');
+        return;
+    }
+    
+    try {
+        const response = await fetch('/api/search', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+                query: query,
+                top_k: parseInt(topK)
+            })
+        });
+        
+        const result = await response.json();
+        displaySearchResults(result);
+    } catch (error) {
+        console.error('搜索失败:', error);
+        alert('搜索失败，请重试');
+    }
+}
+
+function displaySearchResults(result) {
+    const resultsDiv = document.getElementById('searchResults');
+    
+    if (result.success) {
+        let html = '<h3>搜索结果</h3>';
+        html += '<div class="search-result">';
+        html += '<pre>' + result.message + '</pre>';
+        html += '</div>';
+        resultsDiv.innerHTML = html;
+    } else {
+        resultsDiv.innerHTML = '<div class="alert alert-danger">搜索失败: ' + result.error + '</div>';
+    }
+}
+
+async function uploadText() {
+    const content = document.getElementById('textContent').value;
+    const filename = document.getElementById('textFilename').value || 'manual_input.txt';
+    
+    if (!content.trim()) {
+        alert('请输入文本内容');
+        return;
+    }
+    
+    try {
+        const response = await fetch('/api/upload_text', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+                content: content,
+                filename: filename
+            })
+        });
+        
+        const result = await response.json();
+        
+        if (result.success) {
+            alert('文本添加成功');
+            document.getElementById('textContent').value = '';
+            document.getElementById('textFilename').value = '';
+        } else {
+            alert('添加失败: ' + result.error);
+        }
+    } catch (error) {
+        console.error('上传失败:', error);
+        alert('上传失败，请重试');
+    }
+}
+
+async function uploadFile() {
+    const fileInput = document.getElementById('fileUpload');
+    const file = fileInput.files[0];
+    
+    if (!file) {
+        alert('请选择文件');
+        return;
+    }
+    
+    const formData = new FormData();
+    formData.append('file', file);
+    
+    try {
+        const response = await fetch('/api/upload_file', {
+            method: 'POST',
+            body: formData
+        });
+        
+        const result = await response.json();
+        
+        if (result.success) {
+            alert('文件上传成功');
+            fileInput.value = '';
+        } else {
+            alert('上传失败: ' + result.error);
+        }
+    } catch (error) {
+        console.error('上传失败:', error);
+        alert('上传失败，请重试');
+    }
+}
+</script>
+{% endblock %}

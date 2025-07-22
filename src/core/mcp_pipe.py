@@ -9,12 +9,22 @@ python mcp_pipe.py <mcp_script>
 
 """
 
-
-from config_manager import load_config
 import os
 import sys
 import logging
 import argparse
+
+# 添加项目根目录到Python路径
+project_root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+sys.path.insert(0, project_root)
+
+# 导入配置管理模块
+try:
+    from .config_manager import load_config
+except ImportError:
+    # 如果相对导入失败，尝试绝对导入
+    sys.path.insert(0, os.path.join(project_root, 'src'))
+    from core.config_manager import load_config
 
 config = load_config()
 # 设置 MCP_ENDPOINT 环境变量
