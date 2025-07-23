@@ -113169,3 +113169,117 @@ ValueError: Functions with **kwargs are not supported as tools
 2025-07-23 12:36:47,594 - universal_mcp - INFO - Starting Universal MCP Tool server
 2025-07-23 12:36:47,594 - universal_mcp - INFO - Using MCP_ENDPOINT: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
 2025-07-23 12:36:47,598 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-07-23 12:36:51,397 - universal_mcp - DEBUG - Main block started
+2025-07-23 12:36:51,397 - universal_mcp - INFO - === 启动 Universal MCP Tool ===
+2025-07-23 12:36:51,398 - mcp.server.lowlevel.server - DEBUG - Initializing server 'universal_mcps'
+2025-07-23 12:36:51,398 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListToolsRequest
+2025-07-23 12:36:51,398 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListResourcesRequest
+2025-07-23 12:36:51,398 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListResourceTemplatesRequest
+2025-07-23 12:36:51,398 - mcp.server.lowlevel.server - DEBUG - Registering handler for PromptListRequest
+2025-07-23 12:36:51,398 - mcp.server.lowlevel.server - DEBUG - Registering handler for CallToolRequest
+2025-07-23 12:36:51,399 - mcp.server.lowlevel.server - DEBUG - Registering handler for ReadResourceRequest
+2025-07-23 12:36:51,399 - mcp.server.lowlevel.server - DEBUG - Registering handler for GetPromptRequest
+2025-07-23 12:36:51,402 - universal_mcp - INFO - 配置加载完成，MCP端点: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-23 12:36:51,402 - universal_mcp - INFO - 已设置MCP_ENDPOINT环境变量: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-23 12:36:51,402 - universal_mcp - INFO - 从 /Users/honglima/Desktop/Workspace/api-mcp/data/api_configs.json 加载了 3 个API配置
+2025-07-23 12:36:51,404 - universal_mcp - INFO - Registered API as tool: 日记
+2025-07-23 12:36:51,405 - universal_mcp - INFO - Registered API as tool: 绕口令
+2025-07-23 12:36:51,406 - universal_mcp - INFO - Registered API as tool: GDS万国数据财报问答知识
+2025-07-23 12:36:51,409 - universal_mcp - INFO - Starting Universal MCP Tool server
+2025-07-23 12:36:51,409 - universal_mcp - INFO - Using MCP_ENDPOINT: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-23 12:36:51,413 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-07-23 12:36:52,408 - universal_mcp - DEBUG - Main block started
+2025-07-23 12:36:52,408 - universal_mcp - INFO - === 启动 Universal MCP Tool ===
+2025-07-23 12:36:52,408 - mcp.server.lowlevel.server - DEBUG - Initializing server 'universal_mcps'
+2025-07-23 12:36:52,408 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListToolsRequest
+2025-07-23 12:36:52,408 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListResourcesRequest
+2025-07-23 12:36:52,408 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListResourceTemplatesRequest
+2025-07-23 12:36:52,408 - mcp.server.lowlevel.server - DEBUG - Registering handler for PromptListRequest
+2025-07-23 12:36:52,409 - mcp.server.lowlevel.server - DEBUG - Registering handler for CallToolRequest
+2025-07-23 12:36:52,409 - mcp.server.lowlevel.server - DEBUG - Registering handler for ReadResourceRequest
+2025-07-23 12:36:52,409 - mcp.server.lowlevel.server - DEBUG - Registering handler for GetPromptRequest
+2025-07-23 12:36:52,412 - universal_mcp - INFO - 配置加载完成，MCP端点: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-23 12:36:52,412 - universal_mcp - INFO - 已设置MCP_ENDPOINT环境变量: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-23 12:36:52,412 - universal_mcp - INFO - 从 /Users/honglima/Desktop/Workspace/api-mcp/data/api_configs.json 加载了 3 个API配置
+2025-07-23 12:36:52,413 - universal_mcp - INFO - Registered API as tool: 日记
+2025-07-23 12:36:52,414 - universal_mcp - INFO - Registered API as tool: 绕口令
+2025-07-23 12:36:52,415 - universal_mcp - INFO - Registered API as tool: GDS万国数据财报问答知识
+2025-07-23 12:36:52,419 - universal_mcp - INFO - Starting Universal MCP Tool server
+2025-07-23 12:36:52,419 - universal_mcp - INFO - Using MCP_ENDPOINT: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-23 12:36:52,424 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-07-23 12:36:56,519 - universal_mcp - DEBUG - Main block started
+2025-07-23 12:36:56,519 - universal_mcp - INFO - === 启动 Universal MCP Tool ===
+2025-07-23 12:36:56,519 - mcp.server.lowlevel.server - DEBUG - Initializing server 'universal_mcps'
+2025-07-23 12:36:56,520 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListToolsRequest
+2025-07-23 12:36:56,520 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListResourcesRequest
+2025-07-23 12:36:56,520 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListResourceTemplatesRequest
+2025-07-23 12:36:56,520 - mcp.server.lowlevel.server - DEBUG - Registering handler for PromptListRequest
+2025-07-23 12:36:56,520 - mcp.server.lowlevel.server - DEBUG - Registering handler for CallToolRequest
+2025-07-23 12:36:56,520 - mcp.server.lowlevel.server - DEBUG - Registering handler for ReadResourceRequest
+2025-07-23 12:36:56,521 - mcp.server.lowlevel.server - DEBUG - Registering handler for GetPromptRequest
+2025-07-23 12:36:56,526 - universal_mcp - INFO - 配置加载完成，MCP端点: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-23 12:36:56,526 - universal_mcp - INFO - 已设置MCP_ENDPOINT环境变量: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-23 12:36:56,526 - universal_mcp - INFO - 从 /Users/honglima/Desktop/Workspace/api-mcp/data/api_configs.json 加载了 3 个API配置
+2025-07-23 12:36:56,527 - universal_mcp - INFO - Registered API as tool: 日记
+2025-07-23 12:36:56,527 - universal_mcp - INFO - Registered API as tool: 绕口令
+2025-07-23 12:36:56,528 - universal_mcp - INFO - Registered API as tool: GDS万国数据财报问答知识
+2025-07-23 12:36:56,532 - universal_mcp - INFO - Starting Universal MCP Tool server
+2025-07-23 12:36:56,532 - universal_mcp - INFO - Using MCP_ENDPOINT: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-23 12:36:56,536 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-07-23 12:36:57,457 - universal_mcp - DEBUG - Main block started
+2025-07-23 12:36:57,457 - universal_mcp - INFO - === 启动 Universal MCP Tool ===
+2025-07-23 12:36:57,457 - mcp.server.lowlevel.server - DEBUG - Initializing server 'universal_mcps'
+2025-07-23 12:36:57,457 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListToolsRequest
+2025-07-23 12:36:57,458 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListResourcesRequest
+2025-07-23 12:36:57,458 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListResourceTemplatesRequest
+2025-07-23 12:36:57,458 - mcp.server.lowlevel.server - DEBUG - Registering handler for PromptListRequest
+2025-07-23 12:36:57,458 - mcp.server.lowlevel.server - DEBUG - Registering handler for CallToolRequest
+2025-07-23 12:36:57,458 - mcp.server.lowlevel.server - DEBUG - Registering handler for ReadResourceRequest
+2025-07-23 12:36:57,458 - mcp.server.lowlevel.server - DEBUG - Registering handler for GetPromptRequest
+2025-07-23 12:36:57,466 - universal_mcp - INFO - 配置加载完成，MCP端点: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-23 12:36:57,466 - universal_mcp - INFO - 已设置MCP_ENDPOINT环境变量: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-23 12:36:57,466 - universal_mcp - INFO - 从 /Users/honglima/Desktop/Workspace/api-mcp/data/api_configs.json 加载了 3 个API配置
+2025-07-23 12:36:57,467 - universal_mcp - INFO - Registered API as tool: 日记
+2025-07-23 12:36:57,467 - universal_mcp - INFO - Registered API as tool: 绕口令
+2025-07-23 12:36:57,468 - universal_mcp - INFO - Registered API as tool: GDS万国数据财报问答知识
+2025-07-23 12:36:57,501 - universal_mcp - INFO - Starting Universal MCP Tool server
+2025-07-23 12:36:57,501 - universal_mcp - INFO - Using MCP_ENDPOINT: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-23 12:36:57,516 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-07-23 12:37:04,585 - universal_mcp - DEBUG - Main block started
+2025-07-23 12:37:04,587 - universal_mcp - INFO - === 启动 Universal MCP Tool ===
+2025-07-23 12:37:04,590 - mcp.server.lowlevel.server - DEBUG - Initializing server 'universal_mcps'
+2025-07-23 12:37:04,590 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListToolsRequest
+2025-07-23 12:37:04,590 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListResourcesRequest
+2025-07-23 12:37:04,590 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListResourceTemplatesRequest
+2025-07-23 12:37:04,591 - mcp.server.lowlevel.server - DEBUG - Registering handler for PromptListRequest
+2025-07-23 12:37:04,591 - mcp.server.lowlevel.server - DEBUG - Registering handler for CallToolRequest
+2025-07-23 12:37:04,591 - mcp.server.lowlevel.server - DEBUG - Registering handler for ReadResourceRequest
+2025-07-23 12:37:04,591 - mcp.server.lowlevel.server - DEBUG - Registering handler for GetPromptRequest
+2025-07-23 12:37:04,602 - universal_mcp - INFO - 配置加载完成，MCP端点: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-23 12:37:04,602 - universal_mcp - INFO - 已设置MCP_ENDPOINT环境变量: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-23 12:37:04,611 - universal_mcp - INFO - 从 /Users/honglima/Desktop/Workspace/api-mcp/data/api_configs.json 加载了 3 个API配置
+2025-07-23 12:37:04,613 - universal_mcp - INFO - Registered API as tool: 日记
+2025-07-23 12:37:04,614 - universal_mcp - INFO - Registered API as tool: 绕口令
+2025-07-23 12:37:04,614 - universal_mcp - INFO - Registered API as tool: GDS万国数据财报问答知识
+2025-07-23 12:37:04,626 - universal_mcp - INFO - Starting Universal MCP Tool server
+2025-07-23 12:37:04,626 - universal_mcp - INFO - Using MCP_ENDPOINT: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-23 12:37:04,643 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-07-23 12:37:05,316 - universal_mcp - DEBUG - Main block started
+2025-07-23 12:37:05,316 - universal_mcp - INFO - === 启动 Universal MCP Tool ===
+2025-07-23 12:37:05,317 - mcp.server.lowlevel.server - DEBUG - Initializing server 'universal_mcps'
+2025-07-23 12:37:05,318 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListToolsRequest
+2025-07-23 12:37:05,318 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListResourcesRequest
+2025-07-23 12:37:05,318 - mcp.server.lowlevel.server - DEBUG - Registering handler for ListResourceTemplatesRequest
+2025-07-23 12:37:05,318 - mcp.server.lowlevel.server - DEBUG - Registering handler for PromptListRequest
+2025-07-23 12:37:05,318 - mcp.server.lowlevel.server - DEBUG - Registering handler for CallToolRequest
+2025-07-23 12:37:05,318 - mcp.server.lowlevel.server - DEBUG - Registering handler for ReadResourceRequest
+2025-07-23 12:37:05,318 - mcp.server.lowlevel.server - DEBUG - Registering handler for GetPromptRequest
+2025-07-23 12:37:05,323 - universal_mcp - INFO - 配置加载完成，MCP端点: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-23 12:37:05,323 - universal_mcp - INFO - 已设置MCP_ENDPOINT环境变量: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-23 12:37:05,324 - universal_mcp - INFO - 从 /Users/honglima/Desktop/Workspace/api-mcp/data/api_configs.json 加载了 3 个API配置
+2025-07-23 12:37:05,325 - universal_mcp - INFO - Registered API as tool: 日记
+2025-07-23 12:37:05,325 - universal_mcp - INFO - Registered API as tool: 绕口令
+2025-07-23 12:37:05,325 - universal_mcp - INFO - Registered API as tool: GDS万国数据财报问答知识
+2025-07-23 12:37:05,333 - universal_mcp - INFO - Starting Universal MCP Tool server
+2025-07-23 12:37:05,333 - universal_mcp - INFO - Using MCP_ENDPOINT: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-23 12:37:05,339 - asyncio - DEBUG - Using selector: KqueueSelector
