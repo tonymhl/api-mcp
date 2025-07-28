@@ -33980,3 +33980,107 @@
 2025-07-28 21:57:19,744 - MCP_PIPE - INFO - Connecting to WebSocket server: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
 2025-07-28 21:57:20,166 - MCP_PIPE - INFO - Successfully connected to WebSocket server
 2025-07-28 21:57:20,174 - MCP_PIPE - INFO - Started src/core/universal_mcp_tool.py process
+2025-07-28 22:35:27,269 - MCP_PIPE - ERROR - Error in WebSocket to process pipe: no close frame received or sent
+2025-07-28 22:35:27,286 - MCP_PIPE - ERROR - WebSocket connection closed: no close frame received or sent
+2025-07-28 22:35:27,289 - MCP_PIPE - INFO - Terminating src/core/universal_mcp_tool.py process
+2025-07-28 22:35:27,303 - MCP_PIPE - INFO - src/core/universal_mcp_tool.py process terminated
+2025-07-28 22:35:27,304 - MCP_PIPE - WARNING - Connection closed (attempt: 1): no close frame received or sent
+2025-07-28 22:35:27,314 - MCP_PIPE - INFO - Waiting 2.07 seconds before reconnection attempt 1...
+2025-07-28 22:35:27,314 - MCP_PIPE - INFO - Process has ended stderr output
+2025-07-28 22:35:27,314 - MCP_PIPE - INFO - Process has ended output
+2025-07-28 22:35:29,386 - MCP_PIPE - INFO - Connecting to WebSocket server: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-28 22:35:29,561 - MCP_PIPE - ERROR - Connection error: [Errno 8] nodename nor servname provided, or not known
+2025-07-28 22:35:29,561 - MCP_PIPE - WARNING - Connection closed (attempt: 2): [Errno 8] nodename nor servname provided, or not known
+2025-07-28 22:35:29,562 - MCP_PIPE - INFO - Waiting 4.32 seconds before reconnection attempt 2...
+2025-07-28 22:35:35,108 - MCP_PIPE - INFO - Connecting to WebSocket server: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-28 22:35:35,130 - MCP_PIPE - ERROR - Connection error: [Errno 8] nodename nor servname provided, or not known
+2025-07-28 22:35:35,130 - MCP_PIPE - WARNING - Connection closed (attempt: 3): [Errno 8] nodename nor servname provided, or not known
+2025-07-28 22:35:35,130 - MCP_PIPE - INFO - Waiting 8.76 seconds before reconnection attempt 3...
+2025-07-28 22:35:44,161 - MCP_PIPE - INFO - Connecting to WebSocket server: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-28 22:35:51,886 - MCP_PIPE - INFO - Successfully connected to WebSocket server
+2025-07-28 22:35:51,920 - MCP_PIPE - INFO - Started src/core/universal_mcp_tool.py process
+2025-07-28 22:39:09,765 - MCP_PIPE - ERROR - Error in WebSocket to process pipe: no close frame received or sent
+2025-07-28 22:39:14,664 - MCP_PIPE - ERROR - WebSocket connection closed: no close frame received or sent
+2025-07-28 22:39:14,665 - MCP_PIPE - INFO - Terminating src/core/universal_mcp_tool.py process
+2025-07-28 22:39:14,702 - MCP_PIPE - INFO - src/core/universal_mcp_tool.py process terminated
+2025-07-28 22:39:14,718 - MCP_PIPE - WARNING - Connection closed (attempt: 1): no close frame received or sent
+2025-07-28 22:39:14,719 - MCP_PIPE - INFO - Waiting 2.13 seconds before reconnection attempt 1...
+2025-07-28 22:39:14,729 - MCP_PIPE - INFO - Process has ended stderr output
+2025-07-28 22:39:14,730 - MCP_PIPE - INFO - Process has ended output
+2025-07-28 22:39:16,848 - MCP_PIPE - INFO - Connecting to WebSocket server: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-28 22:39:18,508 - MCP_PIPE - INFO - Successfully connected to WebSocket server
+2025-07-28 22:39:18,533 - MCP_PIPE - INFO - Started src/core/universal_mcp_tool.py process
+2025-07-28 22:57:26,708 - MCP_PIPE - ERROR - Error in WebSocket to process pipe: sent 1011 (internal error) keepalive ping timeout; no close frame received
+2025-07-28 22:57:26,715 - MCP_PIPE - ERROR - WebSocket connection closed: sent 1011 (internal error) keepalive ping timeout; no close frame received
+2025-07-28 22:57:26,715 - MCP_PIPE - INFO - Terminating src/core/universal_mcp_tool.py process
+2025-07-28 22:57:26,725 - MCP_PIPE - INFO - src/core/universal_mcp_tool.py process terminated
+2025-07-28 22:57:26,726 - MCP_PIPE - WARNING - Connection closed (attempt: 1): sent 1011 (internal error) keepalive ping timeout; no close frame received
+2025-07-28 22:57:26,727 - MCP_PIPE - INFO - Waiting 2.11 seconds before reconnection attempt 1...
+2025-07-28 22:57:26,728 - MCP_PIPE - INFO - Process has ended stderr output
+2025-07-28 22:57:26,728 - MCP_PIPE - INFO - Process has ended output
+2025-07-28 22:57:28,841 - MCP_PIPE - INFO - Connecting to WebSocket server: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-28 22:57:30,926 - MCP_PIPE - INFO - Successfully connected to WebSocket server
+2025-07-28 22:57:30,940 - MCP_PIPE - INFO - Started src/core/universal_mcp_tool.py process
+2025-07-28 22:57:34,005 - MCP_PIPE - ERROR - Error in WebSocket to process pipe: no close frame received or sent
+2025-07-28 22:57:34,006 - MCP_PIPE - ERROR - WebSocket connection closed: no close frame received or sent
+2025-07-28 22:57:34,007 - MCP_PIPE - INFO - Terminating src/core/universal_mcp_tool.py process
+2025-07-28 22:57:34,023 - MCP_PIPE - INFO - src/core/universal_mcp_tool.py process terminated
+2025-07-28 22:57:34,023 - MCP_PIPE - WARNING - Connection closed (attempt: 1): no close frame received or sent
+2025-07-28 22:57:34,023 - MCP_PIPE - INFO - Waiting 2.11 seconds before reconnection attempt 1...
+2025-07-28 22:57:34,023 - MCP_PIPE - INFO - Process has ended output
+2025-07-28 22:57:34,024 - MCP_PIPE - INFO - Process has ended stderr output
+2025-07-28 22:57:36,134 - MCP_PIPE - INFO - Connecting to WebSocket server: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-28 22:57:36,428 - MCP_PIPE - INFO - Successfully connected to WebSocket server
+2025-07-28 22:57:36,448 - MCP_PIPE - INFO - Started src/core/universal_mcp_tool.py process
+2025-07-28 23:28:09,153 - MCP_PIPE - INFO - 使用MCP端点: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-28 23:28:09,154 - MCP_PIPE - INFO - Connecting to WebSocket server: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-28 23:28:09,562 - MCP_PIPE - INFO - Successfully connected to WebSocket server
+2025-07-28 23:28:09,569 - MCP_PIPE - INFO - Started src/core/universal_mcp_tool.py process
+2025-07-28 23:28:22,093 - MCP_PIPE - ERROR - Error in WebSocket to process pipe: received 1009 (message too big); then sent 1009 (message too big)
+2025-07-28 23:28:22,094 - MCP_PIPE - ERROR - WebSocket connection closed: received 1009 (message too big); then sent 1009 (message too big)
+2025-07-28 23:28:22,094 - MCP_PIPE - INFO - Terminating src/core/universal_mcp_tool.py process
+2025-07-28 23:28:22,112 - MCP_PIPE - INFO - src/core/universal_mcp_tool.py process terminated
+2025-07-28 23:28:22,112 - MCP_PIPE - WARNING - Connection closed (attempt: 1): received 1009 (message too big); then sent 1009 (message too big)
+2025-07-28 23:28:22,113 - MCP_PIPE - INFO - Waiting 2.13 seconds before reconnection attempt 1...
+2025-07-28 23:28:22,113 - MCP_PIPE - INFO - Process has ended stderr output
+2025-07-28 23:28:22,114 - MCP_PIPE - INFO - Process has ended output
+2025-07-28 23:28:24,243 - MCP_PIPE - INFO - Connecting to WebSocket server: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-28 23:28:24,437 - MCP_PIPE - INFO - Successfully connected to WebSocket server
+2025-07-28 23:28:24,448 - MCP_PIPE - INFO - Started src/core/universal_mcp_tool.py process
+2025-07-28 23:28:31,089 - MCP_PIPE - ERROR - Error in WebSocket to process pipe: received 1009 (message too big); then sent 1009 (message too big)
+2025-07-28 23:28:31,090 - MCP_PIPE - ERROR - WebSocket connection closed: received 1009 (message too big); then sent 1009 (message too big)
+2025-07-28 23:28:31,090 - MCP_PIPE - INFO - Terminating src/core/universal_mcp_tool.py process
+2025-07-28 23:28:31,107 - MCP_PIPE - INFO - src/core/universal_mcp_tool.py process terminated
+2025-07-28 23:28:31,107 - MCP_PIPE - WARNING - Connection closed (attempt: 1): received 1009 (message too big); then sent 1009 (message too big)
+2025-07-28 23:28:31,108 - MCP_PIPE - INFO - Waiting 2.06 seconds before reconnection attempt 1...
+2025-07-28 23:28:31,108 - MCP_PIPE - INFO - Process has ended output
+2025-07-28 23:28:31,108 - MCP_PIPE - INFO - Process has ended stderr output
+2025-07-28 23:28:33,168 - MCP_PIPE - INFO - Connecting to WebSocket server: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-28 23:28:33,371 - MCP_PIPE - INFO - Successfully connected to WebSocket server
+2025-07-28 23:28:33,380 - MCP_PIPE - INFO - Started src/core/universal_mcp_tool.py process
+2025-07-28 23:28:44,105 - MCP_PIPE - ERROR - Error in WebSocket to process pipe: received 1009 (message too big); then sent 1009 (message too big)
+2025-07-28 23:28:44,107 - MCP_PIPE - ERROR - WebSocket connection closed: received 1009 (message too big); then sent 1009 (message too big)
+2025-07-28 23:28:44,107 - MCP_PIPE - INFO - Terminating src/core/universal_mcp_tool.py process
+2025-07-28 23:28:44,126 - MCP_PIPE - INFO - src/core/universal_mcp_tool.py process terminated
+2025-07-28 23:28:44,126 - MCP_PIPE - WARNING - Connection closed (attempt: 1): received 1009 (message too big); then sent 1009 (message too big)
+2025-07-28 23:28:44,126 - MCP_PIPE - INFO - Waiting 2.05 seconds before reconnection attempt 1...
+2025-07-28 23:28:44,126 - MCP_PIPE - INFO - Process has ended stderr output
+2025-07-28 23:28:44,127 - MCP_PIPE - INFO - Process has ended output
+2025-07-28 23:28:46,179 - MCP_PIPE - INFO - Connecting to WebSocket server: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-28 23:28:46,627 - MCP_PIPE - INFO - Successfully connected to WebSocket server
+2025-07-28 23:28:46,643 - MCP_PIPE - INFO - Started src/core/universal_mcp_tool.py process
+2025-07-28 23:29:17,677 - MCP_PIPE - ERROR - Error in WebSocket to process pipe: received 1009 (message too big); then sent 1009 (message too big)
+2025-07-28 23:29:17,679 - MCP_PIPE - ERROR - WebSocket connection closed: received 1009 (message too big); then sent 1009 (message too big)
+2025-07-28 23:29:17,679 - MCP_PIPE - INFO - Terminating src/core/universal_mcp_tool.py process
+2025-07-28 23:29:17,697 - MCP_PIPE - INFO - src/core/universal_mcp_tool.py process terminated
+2025-07-28 23:29:17,697 - MCP_PIPE - WARNING - Connection closed (attempt: 1): received 1009 (message too big); then sent 1009 (message too big)
+2025-07-28 23:29:17,697 - MCP_PIPE - INFO - Waiting 2.16 seconds before reconnection attempt 1...
+2025-07-28 23:29:17,698 - MCP_PIPE - INFO - Process has ended stderr output
+2025-07-28 23:29:17,698 - MCP_PIPE - INFO - Process has ended output
+2025-07-28 23:29:19,856 - MCP_PIPE - INFO - Connecting to WebSocket server: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-28 23:29:20,061 - MCP_PIPE - INFO - Successfully connected to WebSocket server
+2025-07-28 23:29:20,071 - MCP_PIPE - INFO - Started src/core/universal_mcp_tool.py process
+2025-07-28 23:33:08,285 - MCP_PIPE - INFO - 使用MCP端点: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-28 23:33:08,288 - MCP_PIPE - INFO - Connecting to WebSocket server: wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1MzExMjM2N30.u9Bk0OTt900CKNxj5jAEGjw1_tapGsKx5I2f1ldE7yYmC8X__3X7A6ceZ-bFYIPU7WYQooTbteCN23PnYxvdXg
+2025-07-28 23:33:08,783 - MCP_PIPE - INFO - Successfully connected to WebSocket server
+2025-07-28 23:33:08,810 - MCP_PIPE - INFO - Started src/core/universal_mcp_tool.py process
