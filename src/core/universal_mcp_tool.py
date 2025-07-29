@@ -15,6 +15,7 @@ import logging
 import sys
 import io
 import os
+import time
 from typing import Dict, Any, List, Optional, Union
 
 # 添加项目根目录到Python路径
@@ -154,121 +155,222 @@ class UniversalMCPTool:
         # 获取response_extract_path配置
         response_extract_path = api_config.get("response_extract_path", None)
         
-        # 动态创建函数参数
-        import inspect
-        from typing import Optional
+        # 获取request_format配置，用于提取默认参数值
+        request_format = api_config.get("request_format", {})
         
-        # 构建参数列表
-        params = []
-        annotations = {}
+        # 为每个API创建一个专门的函数，而不是使用动态签名
+        # 这样FastMCP可以更好地处理参数验证
         
-        for key, expected_type in request_format.items():
-            if expected_type == "string" or isinstance(expected_type, str):
-                param_type = str
-                default_value = ""
-            elif expected_type == "number" or expected_type == "integer":
-                param_type = int
-                default_value = 0
-            elif expected_type == "boolean" or expected_type is False:
-                param_type = bool
-                default_value = False
-            elif isinstance(expected_type, dict):
-                param_type = dict
-                default_value = expected_type
-            else:
-                param_type = str
-                default_value = str(expected_type) if expected_type is not None else ""
+        if api_name == "日记":
+            @self.mcp.tool()
+            def 日记(content: str = "") -> Dict[str, Any]:
+                """记录日记"""
+                return self._call_api_with_retry(api_name, api_url, method, {"content": content}, headers_config, response_extract_path)
+        
+        elif api_name == "绕口令":
+            @self.mcp.tool()
+            def 绕口令(difficulty: str = "简单") -> Dict[str, Any]:
+                """生成绕口令"""
+                return self._call_api_with_retry(api_name, api_url, method, {"difficulty": difficulty}, headers_config, response_extract_path)
+        
+        elif api_name == "GDS万国数据相关知识":
+            # 从配置中获取默认的session_id
+            default_session_id = request_format.get("session_id", "")
+            default_stream = request_format.get("stream", False)
             
-            # 使用Optional类型，允许参数为可选
-            annotations[key] = Optional[param_type]
-            params.append(inspect.Parameter(
-                key, 
-                inspect.Parameter.POSITIONAL_OR_KEYWORD,
-                default=default_value,
-                annotation=Optional[param_type]
-            ))
+            @self.mcp.tool()
+            def GDS万国数据相关知识(question: str = "", stream: bool = None, session_id: str = None) -> Dict[str, Any]:
+                """查询GDS万国数据相关知识"""
+                # 使用配置中的默认值
+                final_stream = stream if stream is not None else default_stream
+                final_session_id = session_id if session_id is not None else "19af53fcebef44a297545b5edba1a9e1"
+                
+                return self._call_api_with_retry(api_name, api_url, method, {
+                    "question": question, 
+                    "stream": final_stream, 
+                    "session_id": final_session_id
+                }, headers_config, response_extract_path)
         
-        # 创建函数签名
-        sig = inspect.Signature(params)
+        elif api_name == "GDS万国数据财报问答知识":
+            @self.mcp.tool()
+            def GDS万国数据财报问答知识(question: str = "", stream: bool = False, session_id: str = "") -> Dict[str, Any]:
+                """查询GDS万国数据财报问答知识"""
+                return self._call_api_with_retry(api_name, api_url, method, {
+                    "question": question, 
+                    "stream": stream, 
+                    "session_id": session_id
+                }, headers_config, response_extract_path)
         
-        # Create a dynamic function for this API
-        def api_caller(*args, **kwargs):
-            logger.info(f"Calling API: {api_name} with params: {kwargs}")
-            try:
-                # 绑定参数
-                bound_args = sig.bind(*args, **kwargs)
-                bound_args.apply_defaults()
+        else:
+            # 对于其他API，使用通用的处理方式
+            def create_api_function():
+                def api_caller(**kwargs) -> Dict[str, Any]:
+                    return self._call_api_with_retry(api_name, api_url, method, kwargs, headers_config, response_extract_path)
                 
-                # 准备请求参数
-                request_params = {}
-                headers = dict(headers_config)  # 复制配置的headers
-                url = api_url
-                
-                # 构建请求参数
-                for key, value in bound_args.arguments.items():
-                    if key in request_format:
-                        request_params[key] = value
-                
-                logger.info(f"Final request params: {request_params}")
-                logger.info(f"Final request headers: {headers}")
-                
-                # 发送请求
-                if method == "GET":
-                    response = requests.get(url, params=request_params, headers=headers)
-                elif method == "POST":
-                    response = requests.post(url, json=request_params, headers=headers)
-                else:
-                    return {
-                        "success": False,
-                        "error": f"Unsupported method: {method}"
-                    }
-                
-                response.raise_for_status()
-                result_data = response.json()
-                
-                # 如果配置了response_extract_path，提取指定路径的数据
-                if response_extract_path:
-                    try:
-                        # 支持点号分隔的路径，如 "data.answer"
-                        path_parts = response_extract_path.split('.')
-                        extracted_data = result_data
-                        for part in path_parts:
-                            extracted_data = extracted_data[part]
-                        
-                        return {
-                            "success": True,
-                            "result": extracted_data,
-                            "full_response": result_data  # 保留完整响应以备调试
-                        }
-                    except (KeyError, TypeError) as e:
-                        logger.warning(f"Failed to extract path {response_extract_path}: {e}")
-                        # 如果提取失败，返回完整响应
-                        return {
-                            "success": True,
-                            "result": result_data
-                        }
-                
-                return {
-                    "success": True,
-                    "result": result_data
-                }
-            except Exception as e:
-                logger.error(f"API call error: {str(e)}")
-                return {
-                    "success": False,
-                    "error": str(e)
-                }
+                # 设置函数名和文档
+                function_name = api_name.replace(" ", "_").replace("-", "_").replace("（", "_").replace("）", "_")
+                api_caller.__name__ = function_name
+                api_caller.__doc__ = description
+                return api_caller
+            
+            # 注册通用API函数
+            generic_func = create_api_function()
+            self.mcp.tool()(generic_func)
         
-        # Set function name, docstring and signature
-        function_name = api_name.replace(" ", "_").replace("-", "_")
-        api_caller.__name__ = function_name
-        api_caller.__doc__ = description
-        api_caller.__signature__ = sig
-        api_caller.__annotations__ = annotations
-        
-        # Register function as a tool
-        self.mcp.tool()(api_caller)
         logger.info(f"Registered API as tool: {api_name}")
+    
+    def _call_api_with_retry(self, api_name: str, api_url: str, method: str, request_params: Dict[str, Any], 
+                           headers_config: Dict[str, str], response_extract_path: str = None) -> Dict[str, Any]:
+        """统一的API调用方法，包含超时和重试机制"""
+        logger.info(f"Calling API: {api_name} with params: {request_params}")
+        try:
+            # 准备请求参数
+            headers = dict(headers_config)  # 复制配置的headers
+            url = api_url
+            
+            logger.info(f"Final request params: {request_params}")
+            logger.info(f"Final request headers: {headers}")
+            
+            # 智能超时设置：根据API类型和特征设置不同的超时时间
+            timeout_seconds = 30  # 默认超时时间
+            
+            # 知识库问答类API需要更长的超时时间
+            if any(keyword in api_name.lower() for keyword in ['知识', 'knowledge', 'qa', 'question', 'answer', 'chat', 'ragflow']):
+                timeout_seconds = 120  # 知识库问答API：2分钟
+                logger.info(f"Detected knowledge-based API, using extended timeout: {timeout_seconds}s")
+            elif any(keyword in api_name.lower() for keyword in ['ai', 'gpt', 'llm', 'generate']):
+                timeout_seconds = 90   # AI生成类API：1.5分钟
+                logger.info(f"Detected AI generation API, using extended timeout: {timeout_seconds}s")
+            elif method == "POST":
+                timeout_seconds = 60   # POST请求通常比GET耗时更长
+                logger.info(f"POST request detected, using extended timeout: {timeout_seconds}s")
+            else:
+                logger.info(f"Using default timeout: {timeout_seconds}s")
+            
+            # 添加重试机制，特别是对于可能因网络波动导致的超时
+            max_retries = 2
+            retry_count = 0
+            last_exception = None
+            
+            while retry_count <= max_retries:
+                try:
+                    logger.info(f"Attempt {retry_count + 1}/{max_retries + 1} for API: {api_name}")
+                    
+                    # 发送请求
+                    if method == "GET":
+                        response = requests.get(
+                            url, 
+                            params=request_params, 
+                            headers=headers, 
+                            timeout=timeout_seconds
+                        )
+                    elif method == "POST":
+                        response = requests.post(
+                            url, 
+                            json=request_params, 
+                            headers=headers, 
+                            timeout=timeout_seconds
+                        )
+                    else:
+                        return {
+                            "success": False,
+                            "error": f"Unsupported method: {method}"
+                        }
+                    
+                    response.raise_for_status()
+                    result_data = response.json()
+                    
+                    logger.info(f"API call successful for {api_name} on attempt {retry_count + 1}")
+                    
+                    # 如果配置了response_extract_path，提取指定路径的数据
+                    if response_extract_path:
+                        try:
+                            # 支持点号分隔的路径，如 "data.answer"
+                            path_parts = response_extract_path.split('.')
+                            extracted_data = result_data
+                            for part in path_parts:
+                                extracted_data = extracted_data[part]
+                            
+                            return {
+                                "success": True,
+                                "result": extracted_data,
+                                "full_response": result_data,  # 保留完整响应以备调试
+                                "api_name": api_name,
+                                "timeout_used": timeout_seconds,
+                                "attempts": retry_count + 1
+                            }
+                        except (KeyError, TypeError) as e:
+                            logger.warning(f"Failed to extract path {response_extract_path}: {e}")
+                            # 如果提取失败，返回完整响应
+                            return {
+                                "success": True,
+                                "result": result_data,
+                                "api_name": api_name,
+                                "timeout_used": timeout_seconds,
+                                "attempts": retry_count + 1
+                            }
+                    
+                    return {
+                        "success": True,
+                        "result": result_data,
+                        "api_name": api_name,
+                        "timeout_used": timeout_seconds,
+                        "attempts": retry_count + 1
+                    }
+                    
+                except requests.exceptions.Timeout as e:
+                    last_exception = e
+                    retry_count += 1
+                    if retry_count <= max_retries:
+                        wait_time = 2 ** retry_count  # 指数退避：2, 4, 8秒
+                        logger.warning(f"Timeout on attempt {retry_count}/{max_retries + 1} for {api_name}, retrying in {wait_time}s...")
+                        time.sleep(wait_time)
+                    else:
+                        logger.error(f"All {max_retries + 1} attempts failed due to timeout for {api_name}")
+                        return {
+                            "success": False,
+                            "error": f"API调用超时 (超过{timeout_seconds}秒)，已重试{max_retries}次仍然失败",
+                            "error_type": "timeout",
+                            "timeout_seconds": timeout_seconds,
+                            "attempts": retry_count,
+                            "api_name": api_name
+                        }
+                
+                except requests.exceptions.RequestException as e:
+                    # 对于非超时的网络错误，也进行有限重试
+                    last_exception = e
+                    if retry_count < max_retries and "Connection" in str(e):
+                        retry_count += 1
+                        wait_time = 1 + retry_count  # 线性退避：2, 3秒
+                        logger.warning(f"Connection error on attempt {retry_count}/{max_retries + 1} for {api_name}, retrying in {wait_time}s...")
+                        time.sleep(wait_time)
+                    else:
+                        logger.error(f"Request error for {api_name}: {str(e)}")
+                        return {
+                            "success": False,
+                            "error": f"网络请求失败: {str(e)}",
+                            "error_type": "request_error",
+                            "api_name": api_name,
+                            "attempts": retry_count + 1
+                        }
+            
+            # 如果所有重试都失败了
+            return {
+                "success": False,
+                "error": f"API调用失败，已重试{max_retries}次: {str(last_exception)}",
+                "error_type": "max_retries_exceeded",
+                "api_name": api_name,
+                "attempts": retry_count
+            }
+            
+        except Exception as e:
+            logger.error(f"Unexpected error in API call for {api_name}: {str(e)}", exc_info=True)
+            return {
+                "success": False,
+                "error": f"API调用过程中发生意外错误: {str(e)}",
+                "error_type": "unexpected_error",
+                "api_name": api_name
+            }
     
     def reload_apis(self):
         """Reload APIs from configuration file and register them as tools"""
