@@ -1,5 +1,0 @@
-2025-07-22 00:05:53,665 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
-2025-07-22 00:05:53,667 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
-2025-07-22 00:05:59,459 - knowledge_base - INFO - 成功加载向量模型: all-MiniLM-L6-v2
-2025-07-22 00:06:00,663 - knowledge_base - INFO - 成功添加文档: GDS万国数据公司介绍.txt, 共1个文本块
-2025-07-22 00:06:00,663 - __main__ - INFO - 成功添加GDS万国数据默认知识库内容
