@@ -1,7 +1,7 @@
 import os
 import sys
 import subprocess
-from universal_mcp_gui import UniversalMCPGUI
+from src.core.universal_mcp_gui import UniversalMCPGUI
 
 def main():
     """Launch Universal MCP Tool GUI"""

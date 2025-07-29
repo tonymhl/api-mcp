@@ -30,7 +30,7 @@ def main():
     
     if args.mode == 'gui':
         print("🖥️  启动GUI管理界面...")
-        subprocess.run([sys.executable, 'src/web/universal_mcp_gui.py'])
+        subprocess.run([sys.executable, 'src/core/universal_mcp_gui.py'])
         
     elif args.mode == 'full':
         print("🚀 启动完整服务 (MCP + Web界面)...")
