@@ -148,39 +148,75 @@ class UniversalMCPTool:
         request_format = api_config["request_format"]
         description = api_config["description"]
         
-        # 获取API密钥相关配置
-        api_key = api_config.get("api_key", "")
-        key_location = api_config.get("key_location", "header")
-        key_name = api_config.get("key_name", "Authorization")
+        # 获取headers配置
+        headers_config = api_config.get("headers", {})
+        
+        # 获取response_extract_path配置
+        response_extract_path = api_config.get("response_extract_path", None)
+        
+        # 动态创建函数参数
+        import inspect
+        from typing import Optional
+        
+        # 构建参数列表
+        params = []
+        annotations = {}
+        
+        for key, expected_type in request_format.items():
+            if expected_type == "string" or isinstance(expected_type, str):
+                param_type = str
+                default_value = ""
+            elif expected_type == "number" or expected_type == "integer":
+                param_type = int
+                default_value = 0
+            elif expected_type == "boolean" or expected_type is False:
+                param_type = bool
+                default_value = False
+            elif isinstance(expected_type, dict):
+                param_type = dict
+                default_value = expected_type
+            else:
+                param_type = str
+                default_value = str(expected_type) if expected_type is not None else ""
+            
+            # 使用Optional类型，允许参数为可选
+            annotations[key] = Optional[param_type]
+            params.append(inspect.Parameter(
+                key, 
+                inspect.Parameter.POSITIONAL_OR_KEYWORD,
+                default=default_value,
+                annotation=Optional[param_type]
+            ))
+        
+        # 创建函数签名
+        sig = inspect.Signature(params)
         
         # Create a dynamic function for this API
-        def api_caller():
-            logger.info(f"Calling API: {api_name}")
+        def api_caller(*args, **kwargs):
+            logger.info(f"Calling API: {api_name} with params: {kwargs}")
             try:
+                # 绑定参数
+                bound_args = sig.bind(*args, **kwargs)
+                bound_args.apply_defaults()
+                
                 # 准备请求参数
-                params = {}
-                headers = {}
+                request_params = {}
+                headers = dict(headers_config)  # 复制配置的headers
                 url = api_url
                 
-                # 如果配置了API密钥，添加到请求中
-                if api_key:
-                    if key_location == "header":
-                        headers[key_name] = f"Bearer {api_key}" if key_name.lower() == "authorization" else api_key
-                    elif key_location == "query":
-                        # 将密钥添加到URL查询参数
-                        if "?" in url:
-                            url += f"&{key_name}={api_key}"
-                        else:
-                            url += f"?{key_name}={api_key}"
-                    elif key_location == "body":
-                        # 将密钥添加到请求体
-                        params[key_name] = api_key
+                # 构建请求参数
+                for key, value in bound_args.arguments.items():
+                    if key in request_format:
+                        request_params[key] = value
+                
+                logger.info(f"Final request params: {request_params}")
+                logger.info(f"Final request headers: {headers}")
                 
                 # 发送请求
                 if method == "GET":
-                    response = requests.get(url, params=params, headers=headers)
+                    response = requests.get(url, params=request_params, headers=headers)
                 elif method == "POST":
-                    response = requests.post(url, json=params, headers=headers)
+                    response = requests.post(url, json=request_params, headers=headers)
                 else:
                     return {
                         "success": False,
@@ -188,9 +224,33 @@ class UniversalMCPTool:
                     }
                 
                 response.raise_for_status()
+                result_data = response.json()
+                
+                # 如果配置了response_extract_path，提取指定路径的数据
+                if response_extract_path:
+                    try:
+                        # 支持点号分隔的路径，如 "data.answer"
+                        path_parts = response_extract_path.split('.')
+                        extracted_data = result_data
+                        for part in path_parts:
+                            extracted_data = extracted_data[part]
+                        
+                        return {
+                            "success": True,
+                            "result": extracted_data,
+                            "full_response": result_data  # 保留完整响应以备调试
+                        }
+                    except (KeyError, TypeError) as e:
+                        logger.warning(f"Failed to extract path {response_extract_path}: {e}")
+                        # 如果提取失败，返回完整响应
+                        return {
+                            "success": True,
+                            "result": result_data
+                        }
+                
                 return {
                     "success": True,
-                    "result": response.json()
+                    "result": result_data
                 }
             except Exception as e:
                 logger.error(f"API call error: {str(e)}")
@@ -199,9 +259,12 @@ class UniversalMCPTool:
                     "error": str(e)
                 }
         
-        # Set function name and docstring
-        api_caller.__name__ = api_name
+        # Set function name, docstring and signature
+        function_name = api_name.replace(" ", "_").replace("-", "_")
+        api_caller.__name__ = function_name
         api_caller.__doc__ = description
+        api_caller.__signature__ = sig
+        api_caller.__annotations__ = annotations
         
         # Register function as a tool
         self.mcp.tool()(api_caller)

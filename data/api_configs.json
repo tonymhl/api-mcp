@@ -27,6 +27,33 @@
     "description": "获取一个绕口令"
   },
   {
+    "api_name": "GDS万国数据相关知识",
+    "api_url": "http://192.168.100.103/api/v1/chats/fa0a4cf26b6311f08c29a6065f182a90/completions",
+    "method": "POST",
+    "headers": {
+      "Content-Type": "application/json",
+      "Authorization": "Bearer ragflow-k4ZGJjYjg0NmI2NTExZjA4NDRmYTYwNj"
+    },
+    "request_format": {
+      "question": "string",
+      "stream": false,
+      "session_id": "19af53fcebef44a297545b5edba1a9e1"
+    },
+    "response_format": {
+      "code": "number",
+      "data": {
+        "answer": "string",
+        "audio_binary": "string",
+        "created_at": "number",
+        "id": "string",
+        "prompt": "string",
+        "reference": "object"
+      }
+    },
+    "response_extract_path": "data.answer",
+    "description": "GDS万国知识库问答服务，支持智能问答并返回详细的知识库内容回答"
+  },
+  {
     "api_name": "GDS万国数据财报问答知识",
     "api_url": "http://localhost:5001/api/gds_intro",
     "method": "GET",
