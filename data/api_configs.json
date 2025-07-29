@@ -27,18 +27,14 @@
     "description": "获取一个绕口令"
   },
   {
-    "api_name": "update_timeout",
-    "api_url": "https://api.example.com/update_timeout",
-    "method": "POST",
-    "request_format": {
-      "timeout": 60
-    },
+    "api_name": "GDS万国数据财报问答知识",
+    "api_url": "http://localhost:5001/api/gds_intro",
+    "method": "GET",
+    "request_format": {},
     "response_format": {
-      "success": true
+      "success": "boolean",
+      "content": "string"
     },
-    "description": "Update the system timeout limit to 60 seconds",
-    "api_key": "your_api_key",
-    "key_location": "header",
-    "key_name": "Authorization"
+    "description": "获取GDS万国数据的财报相关问答知识"
   }
 ]
