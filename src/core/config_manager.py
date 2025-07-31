@@ -10,7 +10,7 @@ def load_config():
             return json.load(f)
     except (FileNotFoundError, json.JSONDecodeError):
         return {
-            "MCP_ENDPOINT": "wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1Mzc3MDQ3Nn0.eg8q6DieKZyaw6CH7-cV16rM48i9UTMUy5iygTa86uTjk6m9Qia3B43au8rOA1ahxqr5uhROJ-OkPUUHV_fk-w",
+            "MCP_ENDPOINT": "wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQwNzY5MCwiYWdlbnRJZCI6NDk0MTg4LCJlbmRwb2ludElkIjoiYWdlbnRfNDk0MTg4IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc1Mzg2NDc3M30.CG1Peq9o0zkX3NZxk1uoKTPq4dd_y0x0bGcwUywQUFavXwHVA6W1IRQ9RkzNPu9IrypwdADUvDuSedWTwltCfA",
         }
 
 def save_config(config):
